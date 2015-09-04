@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fields name="params">
+    
+	<fieldset name="themes" label="General">
+      	  <field name="navslidenavigator_layout" type="flist" hide_none="true" hide_default="true"  label="MOD_LOFSLIDESHOW_NAV_LAYOUT" description="MOD_LOFSLIDESHOW_NAV_LAYOUT_DESC">
+		 	<option class="mixed">Mixed</option>
+		  </field>
+		 	<field name="navslide-navigator_pos" type="flist" default="bottom" label="NAVIGATOR_POSITION" description="NAVIGATOR_POSITION_DESC">
+              <option value="0">JHIDE</option> 
+              <option value="bottom">BOTTOM</option>
+          </field>        
+          <field name="navslide-navitem_height" type="ftext" default="55" label="NAVIGATOR_ITEM_HEIGHT" description="NAVIGATOR_ITEM_HEIGHT_DESC"></field>
+          <field name="navslide-navitem_width" type="ftext" default="235" label="NAVIGATOR_ITEM_WIDTH" description="NAVIGATOR_ITEM_WIDTH_DESC"></field>
+		  
+  		
+	  
+    </fieldset>
+</fields>	
+</form>	
+	

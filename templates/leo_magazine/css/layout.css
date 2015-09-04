@@ -1,0 +1,22 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+
+/* CONTENT'S GRIDS
+--------------------------------------------------------- */
+.clear { clear: both; }
+ .clearfix:after {
+content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.items-row .item { float: left; position: relative;}
+
+.cols-1 .item { width: 100%; }
+.cols-2 .item { width: 50%; }
+.cols-3 .item { width: 33.33%; }
+.cols-4 .item { width: 25%; }
+.cols-5 .item { width: 20%; }

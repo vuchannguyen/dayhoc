@@ -1,0 +1,170 @@
+@charset "utf-8";
+.lof-slnavslide .preload{height:100%;width:100%;background:url(load-indicator.gif) no-repeat scroll 50% 50% #E9E9E9;position:absolute;top:0;left:0;z-index:6}
+/* CSS Document */
+.lof-slnavslide	 {
+	color:#ccc!important; 
+	position:relative;
+	width:auto; 
+	height:auto;
+	margin:0 auto}
+.lof-slnavslide	.lof-container {
+	position:relative;
+
+	overflow:hidden;
+}
+.lof-slnavslide .lof-shadow{
+	width:100%;
+	height:20px;
+	background:url(dropshadow.png) no-repeat center center;
+	overflow:hidden;
+}
+.lof-slnavslide	a {
+	  text-decoration:none}
+	
+		.lof-slnavslide li {
+		list-style-type:none!important;	}
+		
+/* main flash */
+.lof-slnavslide .lof-main-wapper{ 
+	overflow:hidden;
+	position:relative;}
+	
+	.lof-slnavslide .lof-main-wapper .lof-main-item { 
+		overflow:hidden;
+		padding:0px;
+		margin:0px; 
+		height:100%;
+		width:100%;
+		position:absolute; z-index:3}
+		
+		.lof-slnavslide .lof-main-wapper .lof-main-item .lof-info{
+			border-top:1px solid #585858;
+			border-bottom:1px solid #585858;
+			padding:2px;
+		}
+		.lof-slnavslide .lof-main-wapper .lof-main-item .lof-title a{
+			color:#FFF;
+		}
+		.lof-slnavslide .lof-main-wapper .lof-main-item .lof-title  a{ 
+			line-height:1.6em;
+		
+			 font: 30px 'SansationBold',Verdana,sans-serif;
+			margin: 0;
+			padding: 5px 40px;
+			text-shadow: 0 -1px 0 #000000;
+			color:#FFF!important;
+			background:url(blue_bg.png)!important;
+		}
+		
+		.lof-slnavslide .lof-main-wapper .lof-main-item .lof-description{
+			max-width:600px;
+			min-height:20px;
+			bottom:12px;
+			left:0;
+			position:absolute;
+			padding-left:15px;
+		}
+		.lof-slnavslide .lof-main-wapper .lof-main-item .lof-description .lof-desc{ margin-top:5px; background:url(white_bg.png);padding: 5px 40px; color:#666; font-size:12px;}
+		.lof-slnavslide .lof-main-wapper .lof-main-item .lof-description img {}	
+			
+/* item navigator */
+.lof-slnavslide .lof-navigator-wrapper { 
+	position:absolute; bottom:15px; right:5px; z-index:4 ; border-right:5px #FFF solid;  }
+	
+	.lof-slnavslide .lof-navigator-outer  { 
+		position:absolute; 
+		right:0;
+		top:0px;
+		z-index:3;
+		overflow:hidden;
+		 }
+		 
+		.lof-slnavslide  ul.lof-navigator { 
+			top:0;
+			padding:0; 
+			margin:0;
+			position:absolute;
+			width:100%;}
+			
+			.lof-slnavslide  ul.lof-navigator li { 
+				cursor:hand;
+				cursor:pointer;
+				list-style:none!important;
+				padding:0!important;
+				margin:0!important;
+				background:url(transparent_bg.png) repeat  top;
+				position:relative;
+			}
+			.lof-slnavslide  ul.lof-navigator li:hover {
+			 }
+				
+				.lof-slnavslide ul.lof-navigator li div {
+					color: #CCCCCC;
+					font-weight: bold;
+					padding: 2px 6px;
+				}
+				.lof-slnavslide  ul.lof-navigator li  .lof-title{ background:url(btn.png) no-repeat right center; margin-right:12px; margin-top:5px;}		
+				.lof-slnavslide .lof-thumbnails li { border:0!important;}
+				.lof-slnavslide .lof-thumbnails li div img { float:none!important  }
+				
+				.lof-slnavslide .lof-navigator li div img {	
+					float:left;
+					margin:0 .75em .75em 0;
+					border:#D2D2D2 solid 3px;}
+					
+			.lof-slnavslide .lof-navigator li.active {
+				 background:#868686
+			}
+			.lof-slnavslide .lof-navigator   
+			.lof-navinfo{ display:block; position:absolute; bottom:0;background:#FFF; color:#888; border-bottom:-999em;  border-top:#CCC solid 5px;border-bottom:#CCC solid 5px;}
+			.lof-slnavslide .lof-navigator li.active .lof-navinfo{ display:block; background:#FFF; }
+/**
+ * BUTTONS CONTROL
+ */
+.lof-slnavslide  .lof-proccessbar{  width:100%; height:4px; position:absolute; top:0px;background:url(bg.png); z-index:9 }
+.lof-slnavslide    .lof-startstop{ width:54px;height:25px;cursor:hand; cursor:pointer; float:left; background:#FFF}
+.lof-slnavslide   .lof-startstop div{ width:100%; height:100%;}
+.lof-slnavslide   .lof-startstop .lof-start{ background:url(pause.png) no-repeat center center}
+.lof-slnavslide    .lof-startstop .lof-stop{ background:url(play.png) no-repeat center center}
+
+.lof-slnavslide .lof-buttons-control{}
+	.lof-slnavslide .lof-next, 
+	.lof-slnavslide .lof-previous {
+		 
+		width:43px;
+		height:75px;
+		top:40%;
+		text-indent:-9999em;
+		position:absolute;
+		z-index:10;
+		margin:0px;
+		cursor:hand; 
+		cursor:pointer;}
+		
+		.lof-slnavslide .lof-next {
+				background:url(next.png) no-repeat;
+			right:-20px;
+		}
+			
+		.lof-slnavslide .lof-previous {	
+			background:url(previous.png) no-repeat;
+			left:-26px;}
+			
+		.lof-slnavslide .lof-next:hover {
+			background-position:0 -78px  }
+			
+		.lof-slnavslide .lof-previous:hover { 
+			background-position:0 -78px}
+/*
+ * css for override move the main wapper to the right side 
+ */
+		 
+ /* TOP, BOTTOm ALIGMENT */
+.lof-slnavslide  .lof-bottom .lof-navigator-outer{ position:relative; float:left  }
+.lof-slnavslide     .lof-bottom .lof-navigator 		{ width:9999em !important }
+.lof-slnavslide    .lof-bottom .lof-navigator li 	{ display:block; float:left; border-bottom:none;  height:25px;  }
+.lof-slnavslide .lof-bottom .lof-navigator li.active {  background:#868686; }
+.lof-slnavslide .lof-bottom .lof-buttons-control {   }
+
+/* CSS3 Style */
+.lof-slnavslide .lof-css3{	-moz-box-shadow:0 0 10px #333; -webkit-box-shadow:0 0 10px #333; box-shadow: 0px 0px 10px #333; }

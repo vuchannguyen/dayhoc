@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template">
+	<name>leo_magazine</name>
+	<creationDate>March 2012</creationDate>
+	<author>LeoTheme.com</author>
+	<copyright>LeoTheme</copyright>
+	<authorEmail>leotheme@gmail.com</authorEmail>
+	<authorUrl>www.leotheme.com</authorUrl>
+	<version>2.5.0</version>
+	<description><![CDATA[
+	<h1>Leo Magazine</h1>
+		Leo Magazine Template for Leo Framework
+	]]></description>
+	<files>
+
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>ajax.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<folder>layouts</folder>
+		<folder>themes</folder>
+		<folder>libs</folder>
+		<folder>addons</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+		<folder>html</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+		<position>left</position>
+		<position>content-left</position>
+		<position>right</position>
+		<position>content-right</position>
+		<position>top</position>
+		<position>topmenu</position>
+		<position>highlight</position>
+		<position>search</position>
+		<position>header-top</position>
+		<position>slideshow1</position>
+		<position>slideshow2</position>
+		<position>breadcrumbs-top</position>
+		<position>breadcrumbs-bottom</position>
+		<position>footer</position>
+		<position>col1</position>
+		<position>col2</position>
+		<position>col3</position>
+		<position>col4</position>
+		<position>col5</position>
+		<position>col6</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>user13</position>
+		<position>user14</position>
+		<position>user15</position>
+		<position>user16</position>
+		<position>user17</position>
+		<position>user18</position>
+		<position>user19</position>
+		<position>user20</position>
+		<position>showcase</position>
+		<position>content-top</position>
+		<position>content-toptop</position>
+		<position>content-bottombottom</position>
+		<position>userbottom</position>
+		<position>footer</position>
+		<position>msearch</position>
+		<position>mlogin</position>
+		<position>modmega1</position>
+		<position>modmega2</position>
+		<position>syndicate</position>
+		<position>debug</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB.tpl_leo_magazine.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params" addfieldpath="plugins/system/leofw/admin/elements">
+		<fieldset name="navigator_form" title="NAVIGATOR_FORM_F">
+					<field  type="loftoolbar" name="loftoolbar">
+						<option>System </option>
+						<option>Menu </option>
+						<option>Layout</option>
+						<option>Addons</option>
+					</field>
+			</fieldset>
+			
+			
+			<fieldset name="TEMPLATE">
+				<field name="theme" type="leotheme" default="3" label="PLG_LEO_TPL_THEME_LABEL" description="PLG_LEO_TPL_THEME_DESC">
+					<option value="">JDEFAULT</option>
+					<option value="rainbow">RAINBOW</option>
+				</field>
+				
+				<field name="leo_font" type="list" default="3" label="PLG_LEO_TPL_FONT_SIZE_TEMPLATE_LABEL" description="PLG_LEO_TPL_FONT_SIZE_TEMPLATE_DESC">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</field>
+	
+				<field name="leo_footer" type="list" class="leo_switch" default="0" label="PLG_LEO_TPL_COPYRIGHT_LABEL" description="PLG_LEO_TPL_COPYRIGHT_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="leo_footer_text" type="textarea" rows="4" cols="40" size="50" label="LEO_TPL_COPYRIGHT_TEXT_LABEL" description="LEO_TPL_COPYRIGHT_TEXT_DESC" default="Copyright (c) 20011 - 2012 Joomla Templates by LeoTheme.Com. All rights reserved" />
+				
+				<field  type="spacer" name="spcompress" class="lof-group" label="LEO_TPL_COMPRESS_TEXT_TITLE"/>
+				
+			 	<field name="compress_css_template" type="list" default="0" label="PLG_LEO_TPL_COMPRESS_CSS_TEMPLATE_LABEL" description="PLG_LEO_TPL_COMPRESS_CSS_TEMPLATE_DESC">					
+					<option value="0">JNO</option>
+					<option value="optimize_merge">OPTIMIZE_MERGE</option>
+				</field>
+				<field name="exclude_css_files" type="textarea" default="" cols="30" rows="4" label="PLG_LEO_TPL_EXCLUDE_CSS_FILE_TEMPLATE_LABEL" description="PLG_LEO_TPL_EXCLUDE_CSS_FILE_TEMPLATE_DESC"/>
+				
+			 	
+				<field name="compress_js_template" type="list" default="0" label="PLG_LEO_TPL_COMPRESS_JS_TEMPLATE_LABEL" description="PLG_LEO_TPL_COMPRESS_JS_TEMPLATE_DESC">					
+					<option value="0">JNO</option>
+					<option value="optimize_merge">OPTIMIZE_MERGE</option>
+				</field>
+				<field name="exclude_js_files" type="textarea" default="core.js,mootools-core.js,mootools-more.js,jquery.js"  cols="30" rows="4" label="PLG_LEO_TPL_EXCLUDE_JS_FILE_TEMPLATE_LABEL" description="PLG_LEO_TPL_EXCLUDE_JS_FILE_TEMPLATE_DESC"/>
+			</fieldset>
+			<fieldset name="MENU">
+				<field name="menutype" type="menu" default="mainmenu" label="PLG_LEO_TPL_MENUTYPE_LABEL" description="PLG_LEO_TPL_MENUTYPE_DESC" />
+				
+				<field name="leo_menustyle" type="list" default="mega" label="PLG_LEO_TPL_MENUSTYLE_LABEL" description="PLG_LEO_TPL_MENUSTYLE_DESC">
+					<option value="mega">MegaMenu</option>
+					<option value="fancy">fancy</option>
+				</field>
+				<field name="leo_menueffect" type="list" default="simple" label="PLG_LEO_TPL_MENUEFFECT_LABEL" description="PLG_LEO_TPL_MENUEFFECT_DESC">
+					<option value="simple">PLG_LEO_TPL_SIMPLE_EFFECT</option>
+					<option value="fade">PLG_LEO_TPL_FADE_EFFECT</option>
+					<option value="sliding">PLG_LEO_TPL_SLIDING_EFFECT</option>
+				</field>
+				<field name="mdelay" type="text" size="50" default="350" label="PLG_LEO_TPL_TIMEDELAYT_LABEL" description="PLG_LEO_TPL_TIMEDELAYT_DESC" />
+				<field name="mduration" type="text" size="50" default="800" label="PLG_LEO_TPL_DURATION_LABEL" description="Time duration." />
+				<field name="mtransition" type="list" default="Fx.Transitions.Sine.easeInOut" label="PLG_LEO_TPL_TRANSITION_LABEL" description="PLG_LEO_TPL_TRANSITION_DESC">
+					<option value="Fx.Transitions.linear">Linear</option>
+					<option value="Fx.Transitions.Quad.easeIn">Quad.easeIn</option>
+					<option value="Fx.Transitions.Quad.easeOut">Quad.easeOut</option>
+					<option value="Fx.Transitions.Quad.easeInOut">Quad.easeInOut</option>
+					<option value="Fx.Transitions.Cubic.easeIn">Cubic.easeIn</option>
+					<option value="Fx.Transitions.Cubic.easeOut">Cubic.easeOut</option>
+					<option value="Fx.Transitions.Cubic.easeInOut">Cubic.easeInOut</option>
+					<option value="Fx.Transitions.Quart.easeIn">Quart.easeIn</option>
+					<option value="Fx.Transitions.Quart.easeOut">Quart.easeOut</option>
+					<option value="Fx.Transitions.Quart.easeInOut">Quart.easeInOut</option>
+					<option value="Fx.Transitions.Quart.easeInOut">Quart.easeInOut</option>
+					<option value="Fx.Transitions.Quint.easeIn">Quint.easeIn</option>
+					<option value="Fx.Transitions.Quint.easeOut">Quint.easeOut</option>
+					<option value="Fx.Transitions.Quint.easeInOut">Quint.easeInOut</option>
+					<option value="Fx.Transitions.Expo.easeIn">Expo.easeIn</option>
+					<option value="Fx.Transitions.Expo.easeOut">Expo.easeOut</option>
+					<option value="Fx.Transitions.Expo.easeInOut">Expo.easeInOut</option>
+					<option value="Fx.Transitions.Circ.easeIn">Circ.easeIn</option>
+					<option value="Fx.Transitions.Circ.easeOut">Circ.easeOut</option>
+					<option value="Fx.Transitions.Circ.easeInOut">Circ.easeInOut</option>
+					<option value="Fx.Transitions.Sine.easeIn">Sine.easeIn</option>
+					<option value="Fx.Transitions.Sine.easeOut">Sine.easeOut</option>
+					<option value="Fx.Transitions.Sine.easeInOut">Sine.easeInOut</option>
+					<option value="Fx.Transitions.Back.easeIn">Back.easeIn</option>
+					<option value="Fx.Transitions.Back.easeOut">Back.easeOut</option>
+					<option value="Fx.Transitions.Back.easeInOut">Back.easeInOut</option>
+					<option value="Fx.Transitions.Bounce.easeIn">Bounce.easeIn</option>
+					<option value="Fx.Transitions.Bounce.easeOut">Bounce.easeOut</option>
+					<option value="Fx.Transitions.Bounce.easeInOut">Bounce.easeInOut</option>
+					<option value="Fx.Transitions.Elastic.easeIn">Elastic.easeIn</option>
+					<option value="Fx.Transitions.Elastic.easeOut">Elastic.easeOut</option>
+					<option value="Fx.Transitions.Elastic.easeInOut">Elastic.easeInOut</option>
+				</field>
+
+				<field name="fancy" type="list" class="leo_switch" default="1" label="PLG_LEO_TPL_FANCY_EFFECT_LABEL" description="PLG_LEO_TPL_FANCY_EFFECT_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="transition" type="list" default="Fx.Transitions.linear" label="PLG_LEO_TPL_TRANSITION_LABEL" description="PLG_LEO_TPL_TRANSITION_DESC">
+					<option value="Fx.Transitions.linear">Linear</option>
+					<option value="Fx.Transitions.Quad.easeIn">Quad.easeIn</option>
+					<option value="Fx.Transitions.Quad.easeOut">Quad.easeOut</option>
+					<option value="Fx.Transitions.Quad.easeInOut">Quad.easeInOut</option>
+					<option value="Fx.Transitions.Cubic.easeIn">Cubic.easeIn</option>
+					<option value="Fx.Transitions.Cubic.easeOut">Cubic.easeOut</option>
+					<option value="Fx.Transitions.Cubic.easeInOut">Cubic.easeInOut</option>
+					<option value="Fx.Transitions.Quart.easeIn">Quart.easeIn</option>
+					<option value="Fx.Transitions.Quart.easeOut">Quart.easeOut</option>
+					<option value="Fx.Transitions.Quart.easeInOut">Quart.easeInOut</option>
+					<option value="Fx.Transitions.Quart.easeInOut">Quart.easeInOut</option>
+					<option value="Fx.Transitions.Quint.easeIn">Quint.easeIn</option>
+					<option value="Fx.Transitions.Quint.easeOut">Quint.easeOut</option>
+					<option value="Fx.Transitions.Quint.easeInOut">Quint.easeInOut</option>
+					<option value="Fx.Transitions.Expo.easeIn">Expo.easeIn</option>
+					<option value="Fx.Transitions.Expo.easeOut">Expo.easeOut</option>
+					<option value="Fx.Transitions.Expo.easeInOut">Expo.easeInOut</option>
+					<option value="Fx.Transitions.Circ.easeIn">Circ.easeIn</option>
+					<option value="Fx.Transitions.Circ.easeOut">Circ.easeOut</option>
+					<option value="Fx.Transitions.Circ.easeInOut">Circ.easeInOut</option>
+					<option value="Fx.Transitions.Sine.easeIn">Sine.easeIn</option>
+					<option value="Fx.Transitions.Sine.easeOut">Sine.easeOut</option>
+					<option value="Fx.Transitions.Sine.easeInOut">Sine.easeInOut</option>
+					<option value="Fx.Transitions.Back.easeIn">Back.easeIn</option>
+					<option value="Fx.Transitions.Back.easeOut">Back.easeOut</option>
+					<option value="Fx.Transitions.Back.easeInOut">Back.easeInOut</option>
+					<option value="Fx.Transitions.Bounce.easeIn">Bounce.easeIn</option>
+					<option value="Fx.Transitions.Bounce.easeOut">Bounce.easeOut</option>
+					<option value="Fx.Transitions.Bounce.easeInOut">Bounce.easeInOut</option>
+					<option value="Fx.Transitions.Elastic.easeIn">Elastic.easeIn</option>
+					<option value="Fx.Transitions.Elastic.easeOut">Elastic.easeOut</option>
+					<option value="Fx.Transitions.Elastic.easeInOut">Elastic.easeInOut</option>
+				</field>
+				<field name="duration" type="text" size="50" default="350" label="Duration" description="Duration" />
+			</fieldset>
+	 
+			<!--START_GROUP_Advanced-->
+			<fieldset name="ADVANCED">
+				
+				<field name="enable_responsive" type="list" class="leo_switch" default="1" label="TPL_LEO_ENABLE_RESPONSIVE_LABEL" description="TPL_LEO_ENABLE_RESPONSIVE_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				 <field name="template_width" type="text"   default="960px" label="TPL_LEO_TEMPLATE_WIDTH_LABEL" description="TPL_LEO_TEMPLATE_WIDTH_DESC" />
+				 <field name="left_column_width" type="text"  default="20" label="TPL_LEO_TEMPLATE_LEFT_COLUMN_WIDTH_LABEL" description="TPL_LEO_TEMPLATE_LEFT_COLUMN_WIDTH_DESC" />
+				<field name="right_column_width" type="text"   default="25" label="TPL_LEO_TEMPLATE_RIGHT_COLUMN_WIDTH_LABEL" description="TPL_LEO_TEMPLATE_RIGHT_COLUMN_WIDTH_DESC" />
+						 
+				<field name="layout" type="list" default="-lcr" label="TPL_LEO_TEMPLATE_DIRECTION_LABEL" description="TPL_LEO_TEMPLATE_DIRECTION_LABEL">
+					<option value="-lcr">TPL_LEO_TEMPLATE_LEFT_CONTENT_RIGHT</option>
+					<option value="-rcl">TPL_LEO_TEMPLATE_RIGHT_CONTENT_LEFT</option>
+					<option value="-crl">TPL_LEO_TEMPLATE_CONTENT_RIGHT_LEFT</option>
+				</field>
+				
+				<field name="leo_change_color" type="list" class="leo_switch" default="1" label="Show change color" description="Show change color in your website.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+ 
+				
+			</fieldset>
+			<fieldset name="ADDONS_SETTING">
+                <field name="enable_toolspanel" type="list" class="leo_switch" default="1" label="Enable User Control" description="Enable User Control">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+                <field name="enable_custom_body" type="list" class="leo_switch" default="0" label="Enable Custom Body" description="Enable Custom Body">
+					<option value="0">Off</option>
+					<option value="1">On</option>
+				</field>
+				<field name="image_bottom-pattern" type="leopattern" default="pattern0" template="leo_magazine" label="Body Image" description="Body Image"/>
+                <field name="use_custom_color" type="list" class="leo_switch" default="0" label="Enable Custom Body Color" description="Enable Custom Color">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+                <field name="bg_body" type="leocolorpicker" default="EEEEEE" label="Body Background Color" description="Body Background Color" />
+                <field name="body_text_picker" type="leocolorpicker" default="000000" label="Body Text Color" description="Body Text Color" />
+                <field name="body_link_picker" type="leocolorpicker" default="FFFFFF" label="Body Link Color" description="Body Link Color" />
+                <field name="enable_custom_tops" type="list" class="leo_switch" default="1" label="Enable Custom Top" description="Enable Custom Top">
+					<option value="0">Off</option>
+					<option value="1">On</option>
+				</field>
+                <field name="image_tops" type="leobgtop" default="pattern0" template="leo_magazine" label="Top Image" description="Top Background Image"/>
+                <field name="use_custom_top_color" type="list" class="leo_switch" default="0" label="Enable Custom Top Color" description="Enable Custom Top Color">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+                <field name="top_bgcolor" type="leocolorpicker" default="032e28" label="Top Background Color" description="Top Background Color" />
+                <field name="leo_text_top" type="leocolorpicker" default="FFFFFF" label="Top Text Color" description="Top Text Color" />
+                <field name="leo_link_top" type="leocolorpicker" default="FFFFFF" label="Top Link Color" description="Top Link Color" />
+                <field name="enable_custom_bottoms" type="list" class="leo_switch" default="1" label="Enable Custom Bottom" description="Enable Custom Bottom">
+					<option value="0">Off</option>
+					<option value="1">On</option>
+				</field>
+                <field name="image_bottoms" type="leobgbottom" default="pattern0" template="leo_magazine" label="Bottom Image" description="Bottom Background Image"/>
+                <field name="use_custom_bottom_color" type="list" class="leo_switch" default="0" label="Enable Custom Bottom Color" description="Enable Custom Bottom Color">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+                <field name="bottom_bgcolor" type="leocolorpicker" default="FFFFFF" label="Bottom Background Color" description="Bottom Background Color" />
+                <field name="leo_text_bottom" type="leocolorpicker" default="FFFFFF" label="Bottom Text Color" description="Bottom Text Color" />
+                <field name="leo_link_bottom" type="leocolorpicker" default="FFFFFF" label="Bottom Link Color" description="Bottom Link Color" />
+			</fieldset>
+			<fieldset name="end_form" title="ENDFORM">
+					<field  type="lofspacer" name="end_form" title="end"/>
+			</fieldset>
+
+		</fields>
+	</config>
+
+</extension>

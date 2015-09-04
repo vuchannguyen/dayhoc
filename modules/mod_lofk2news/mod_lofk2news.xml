@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="1.7"
+	client="site"
+	method="upgrade">
+  <name>Lof K2News Module</name>
+  <creationDate>July 2011</creationDate>
+  <author>LandOfCoder</author>
+  <copyright>GNU / GPL2 http://www.gnu.org/licenses/gpl-2.0.html</copyright>
+  <authorEmail>landofcoder@gmail.com</authorEmail>
+  <authorUrl>http://www.landofcoder.com</authorUrl>
+  <version>2.0</version>
+  <description>
+  <![CDATA[<div style="font-size:11px;">
+ <div class='lof-description'>The <a href='http://landofcoder.com' target='_blank'>Lof K2News Module</a> have released - it's a lightweight module working on the content component, it help sorting and reorganizing list of items in each box and each block section, category. Have you even known some famous news site such as: yahoo news, World news ...etc, Are you having the new site? and You would like your home site having most of similar look as one of those sites, so the module will help you completing this idea.<div><br/><p>Copyright: <a target='_blank' href='http://landofcoder.com'>LandOfCoder.Com</a></p>
+]]>
+  </description>
+  <files>
+    <filename module="mod_lofk2news">mod_lofk2news.php</filename>
+    <filename module="mod_lofk2news">helper.php</filename>
+    <filename module="mod_lofk2news">index.html</filename>
+    <folder module="mod_lofk2news">libs</folder>
+    <folder module="mod_lofk2news">assets</folder>
+    <folder module="mod_lofk2news">tmpl</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">languages/en-GB.mod_lofk2news.ini</language>
+  </languages>
+  <config>
+    <fields name="params" addfieldpath="modules/mod_lofk2news/libs/elements">
+      <fieldset name="GLOBALSETTING">
+       
+	   
+	    <field type="lofspacer" />
+        <field name="moduleclass_sfx" type="text" default="" label="MODULE_CLASS_SUFFIX" description="MODULE_CLASS_SUFFIX_DESC" />
+      
+	    <field name="theme-layout" type="folderlist" hide_none="true"   default="" label="SELECT_THEME" directory="modules/mod_lofk2news/tmpl/" filter="" exclude="_navigator|_contentslider|item" stripext="" />
+       
+        <field name="limit_description_by" type="list" default="char" label="LIMIT_DESCRIPTION_BY" description="LIMIT_DESCRIPTION_BY_DESC">
+          <option value="word">WORD</option>
+          <option value="char">CHARACTER</option>
+        </field>
+        <field name="description_max_chars" type="text" default="100" label="DESCIPTION_MAX_CHARS" description="DESCIPTION_MAX_CHARS_DESC" />
+        <field name="replacer" type="text" default="..." label="REPLACER" description="REPLACER_DESC" />
+		 
+		 
+<field type="lofspacer" value="1" name="leading-box"  isgroup="true" title="LEADING_SETTING" end="group" />
+		 
+		<field name="leading_width" type="text" default="33.3" label="LAYOUT_WIDTH" description="LAYOUT_WIDTH_DESC"></field>	
+			<field name="leading_heading" type="text" default="" label="HEADING_TEXT" description="HEADING_TEXT_DESC"></field>
+		 	<field name="leading_count" type="text" default="1" label="LEADING_COUNT" description="LEADING_COUNT_DESC"></field>
+			<field name="leading_showimage" type="radio" default="1" label="SHOW_IMAGE" description="SHOW_IMAGE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			
+			<field name="leadingimage_height" type="text" default="197" label="IMAGE_HEIGHT" description="IMAGE_HEIGHT_DESC"></field>
+			<field name="leadingimage_width" type="text" default="300" label="IMAGE_WIDTH" description="IMAGE_WIDTH_DESC"></field>
+			<field name="leadingdescription_max" type="text" default="100" label="DESCIPTION_MAX" description="DESCIPTION_MAX_DESC" />
+<field type="lofspacer" default="1" name="test" label="test 1" end="444" />
+
+<field type="lofspacer" value="1"  name="primary-box"   isgroup="true"  ischecked="true"  title="PRIMARY_SETTING" end="group" />				 				
+			<field name="primary_width" type="text" default="33.3" label="LAYOUT_WIDTH" description="LAYOUT_WIDTH_DESC"></field>	
+			<field name="primary_heading" type="text" default="" label="HEADING_TEXT" description="HEADING_TEXT_DESC"></field> 
+			<field name="primary_count" type="text" default="5" label="SECONDARY_COUNT" description="SECONDARY_COUNT_DESC"></field>
+			<field name="primary_showimage" type="radio" default="1" label="SHOW_IMAGE" description="SHOW_IMAGE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="primaryimage_height" type="text" default="70" label="IMAGE_HEIGHT" description="IMAGE_HEIGHT_DESC"></field>
+			<field name="primaryimage_width" type="text" default="90" label="IMAGE_WIDTH" description="IMAGE_WIDTH_DESC"></field>
+			<field name="primarydescription_max" type="text" default="100" label="DESCIPTION_MAX" description="DESCIPTION_MAX_DESC" />	
+<field type="lofspacer" default="1" name="END_PRIMARY_SETTING"  label="test 1" end="2" />			
+
+<field type="lofspacer" value="1" name="secondary-box"   isgroup="true"  ischecked="true"  title="SECONDARY_SETTING" end="group" />				
+			<field name="secondary_width" type="text" default="33.3" label="LAYOUT_WIDTH" description="LAYOUT_WIDTH_DESC"></field>
+		    <field name="secondary_heading" type="text" default="" label="HEADING_TEXT" description="HEADING_TEXT_DESC"></field> 
+		    <field name="secondary_count" type="text" default="5" label="SECONDARY_COUNT" description="SECONDARY_COUNT_DESC"></field>
+			<field name="secondary_showimage" type="radio" default="1" label="SHOW_IMAGE" description="SHOW_IMAGE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="secondaryimage_height" type="text" default="70" label="IMAGE_HEIGHT" description="IMAGE_HEIGHT_DESC"></field>
+			<field name="secondaryimage_width" type="text" default="90" label="IMAGE_WIDTH" description="IMAGE_WIDTH_DESC"></field>
+			<field name="secondarydescription_max" type="text" default="100" label="DESCIPTION_MAX" description="DESCIPTION_MAX_DESC" />
+<field type="lofspacer" default="2" name="END_SECONDARY_SETTING"  end="" />	
+
+			<field name="maximum_categoriesshowed" type="text" default="5" label="MAXIMUM_CATEGORIES_SHOW" description="MAXIMUM_CATEGORIES_SHOW_DESC"></field>
+			
+			<field name="theme_box_settings" type="itaddrow" default="" label="OVERRIDING_THEME_BOX" description="OVERRIDING_THEME_BOX_DESC" />
+			<field name="define_positions" type="itaddrow"  default="" label="DEFINE_POSITIONS" description="DEFINE_POSITIONS_DESC" />
+		
+		
+      </fieldset>
+
+      <fieldset name="SOURCESETTING">
+        <field name="category" type="categoriesmultiple"
+									extension="com_content"
+								 
+									size="10"
+									label="JCATEGORY"
+									description="MOD_ARTICLES_NEWS_FIELD_CATEGORY_DESC" />
+        <field
+          name="user_id"
+          type="list"
+          default="0"
+          label="MOD_LATEST_NEWS_FIELD_USER_LABEL"
+          description="MOD_LATEST_NEWS_FIELD_USER_DESC">
+          <option
+            value="0">MOD_LATEST_NEWS_VALUE_ANYONE</option>
+          <option
+            value="by_me">MOD_LATEST_NEWS_VALUE_ADDED_BY_ME</option>
+          <option
+            value="not_me">MOD_LATEST_NEWS_VALUE_NOTADDED_BY_ME</option>
+        </field>
+        <field
+          name="show_featured"
+          type="list"
+          default=""
+          label="MOD_LATEST_NEWS_FIELD_FEATURED_LABEL"
+          description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC">
+          <option
+            value="999">JSHOW</option>
+          <option
+            value="0">JHIDE</option>
+          <option
+            value="1">MOD_LATEST_NEWS_VALUE_ONLY_SHOW_FEATURED</option>
+        </field>
+        <field name="ordering" type="list" default="created-asc" label="ARTCILES_SORTED_BY" description="ARTCILES_SORTED_BY_DESC">
+          <option value="id-asc">ID_ASCENDING</option>
+          <option value="id-desc">ID_DESCENDING</option>
+          <option value="ordering-asc">ORDERING_ASCENDING</option>
+          <option value="ordering-desc">ORDERING_DESCENDING</option>
+          <option value="hits-asc">HIT_ASCENDING</option>
+          <option value="hits-desc">HIT_DESCENDING</option>
+          <option value="created-desc">DATE_ASCENDING</option>
+          <option value="created_asc">DATE_DESCENDING</option>
+          <option value="a.publish_up-asc">PUBLISHED_DATE_ASCENDING</option>
+          <option value="a.publish_up-desc">PUBLISHED_DATE_DESCENDING</option>
+          <option value="rand-">RANDOM</option>
+        </field>
+		<field name="category_order" type="list" default="title__ASC" label="Category order" description="Category order by">
+			<option value="title__ASC">Name - Asc</option>
+			<option value="title__DESC">Name - Desc</option>
+			<option value="lft__DESC">CATEGORY_MANAGER_ORDER_DESC</option>
+			<option value="lft__ASC">CATEGORY_MANAGER_ORDER_ASC</option>
+			<option value="rand__">RANDOM</option>
+		</field>
+      </fieldset>
+      <fieldset name="advanced">
+        <field 
+          name="enable_cache" 
+          type="list" 
+          default="0" 
+          label="CACHE" 
+          description="CACHING_DESC">
+          <option value="1">Use global</option>
+          <option value="0">JNO caching</option>
+        </field>
+        <field name="cache_time" type="text" default="30" label="CACHE_TIME" description="CACHE_TIME_DESC" />
+        <field name="auto_renderthumb" type="radio" default="0" label="RENDER_THUMBNAIL" description="RENDER_THUMBNAIL_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="open_target" type="list" default="parent" label="CLICK_LINK_OPEN_IN" description="CLICK_LINK_OPEN_IN_DESC">
+          <option value="blank">New window</option>
+          <option value="parent">Parent window</option>
+        </field>
+	<field name="itemReadMore" type="radio" default="0" label="Read more... link" description="">
+      <option value="0">Hide</option>
+      <option value="1">Show</option>
+	  
+    </field>		
+		<field name="itemK2Plugins" type="hidden" default="0" label="Enable K2 plugins" description="">
+		  <option value="0">JNO</option>
+		  <option value="1">JYES</option>
+		</field>
+	 <field name="itemCategory" type="radio" default="0" label="Category" description="">
+      <option value="0">Hide</option>
+      <option value="1">Show</option>
+    </field>	
+	    <field name="itemHits" type="radio" default="0" label="Hits (page views)" description="">
+			  <option value="0">Hide</option>
+			  <option value="1">Show</option>
+		</field>
+		
+		<field name="itemDateCreated" type="radio" default="0" label="Item created date and time" description="">
+			  <option value="0">Hide</option>
+			  <option value="1">Show</option>
+			</field>	   
+		<field name="itemAuthor" type="radio" default="0" label="Author" description="">
+		  <option value="0">Hide</option>
+		  <option value="1">Show</option>
+		</field>
+		
+		<field name="itemComments" type="radio" default="1" label="Show Counter Comment" description="">
+		  <option value="0">Hide</option>
+		  <option value="1">Show</option>
+		</field>
+		
+      </fieldset>
+ 
+    </fields>
+  </config>
+</extension>

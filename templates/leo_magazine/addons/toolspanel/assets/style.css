@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+#toolspanelcontent > div:hover {
+	color:#285151
+}
+#toolspanel a { color: #333;}
+#toolspanel {
+	position:fixed;
+	top:100px;
+	left:0;
+	background:red;
+	z-index:999
+}
+#toolspanelcontent {
+	position:fixed;
+	top:45px;
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+	-webkit-box-shadow: 0 0 3px #cecece;
+	-moz-box-shadow: 0 0 3px #cecece;
+	box-shadow: 0 0 3px #cecece;
+	background: #fff;
+	color: #000;
+	font-size: 90%;
+	z-index: 999;
+	border-bottom: 1px solid #DBDDD8;
+	border-right: 1px solid #DBDDD8;
+	border-top: 1px solid #DBDDD8;
+}
+#toolspanelcontent > div {
+	padding:5px;
+	clear: both;
+}
+#toolspanel .pn-button {
+	cursor: pointer;
+	right:-30px;
+	height:25px;
+	width:20px;
+	position: absolute;
+	top: 86px;
+	z-index: 999;
+	border-bottom: 1px solid #DBDDD8;
+	border-right: 1px solid #DBDDD8;
+	border-top: 1px solid #DBDDD8;
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+	-webkit-box-shadow: 3px 0 4px #cecece;
+	-moz-box-shadow: 3px 0 4px #cecece;
+	box-shadow: 3px 0 4px #cecece;
+	background: #fff;
+}
+#toolspanel .pn-button {
+	background: url("icon.png") no-repeat scroll 7px 7px #FFFFFF;
+}
+#toolspanel .open {
+	background: url("icon.png") no-repeat scroll 4px -33px #FFFFFF;
+}
+#pnpartterns a, #pnpartterns_top a, #pnpartterns_bottom a {
+	border: 1px solid #BBBBBB;
+	display: block;
+	float: left;
+	height: 6px;
+	margin: 0 5px 5px 0;
+	padding: 6px;
+	width: 6px;
+}
+
+#toolspanel a:hover,
+#toolspanel a:active,
+#toolspanel a:focus{color: #000;}
+#template_direction div
+#toolspanelcontent div#pnpartterns{
+    padding:5px !important;
+}
+#pnpartterns h5, #template_direction h5, #template_theme h5{
+    margin:0 0 5px;
+}
+#toolspanelcontent span{
+    font-size:11px;
+}
+#colorPicker h5{
+    cursor: pointer;
+	 background: url(arrow-dow.png) no-repeat scroll 30% 7px ;
+}
+#colorPicker input{
+}
+#colorPicker input[name=leoInputBodyLink]{
+    top:3px;
+}
+#colorPicker img#leo-background-top-color, #colorPicker img#leo-background-bottom-color{
+    top:5px;
+}
+#colorPicker img{
+    top:5px;
+}
+#colorPicker img#leo-body-link{
+    top:6px;
+}
+#colorPicker #leo-background-picker input, #colorPicker #leo-background-top input, #colorPicker #leo-background-bottom input{
+}
+#colorPicker #leo-background-picker img{
+}
+
+#toolspanelcontent input[type=text] {
+	width:50px;
+	font-size:11px;
+    text-transform: uppercase;
+    height:22px;
+    color:#336699;
+}
+#colorPicker input[name="leoInputLinkTop"]{
+    top: 2px;
+}
+#colorPicker img#leo-link-top-color{
+    top: 6px;
+}
+#colorPicker input[name="leoInputLinkBottom"]{
+    top: 2px;
+}
+#colorPicker img#leo-link-top-color{
+    top: 6px;
+}

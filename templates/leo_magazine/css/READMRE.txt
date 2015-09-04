@@ -1,0 +1,4 @@
+You would like to load one or multiple Css files which use for customizing or defining new Css Rules
+You put your files in the folder:
+
+ + css/custom : the framework load all files inside this folder in automatic away.

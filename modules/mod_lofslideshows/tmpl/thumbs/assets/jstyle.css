@@ -1,0 +1,214 @@
+@charset "utf-8";
+.descslide .preload{height:100%;width:100%;background:url(load-indicator.gif) no-repeat scroll 50% 50% #E9E9E9;position:absolute;top:0;left:0;z-index:4}
+/* CSS Document */
+.descslide	 {
+ 
+	position:relative;
+	width:auto; 
+	height:auto;}
+.descslide	.lof-container {
+	position:relative;
+}
+.descslide .lof-shadow{
+	width:100%;
+	height:20px;
+	background:url(dropshadow.png) no-repeat center center;
+	overflow:hidden;
+}
+.descslide	a {
+		color:#FFF!important; text-decoration:none; font-size:18px; 
+		font-family:'LeagueGothicRegular', Arial, Helvetica, sans-serif;
+		text-shadow:1px 1px #666;
+		text-transform:uppercase}
+		
+		.descslide li {
+		list-style-type:none!important; background:none!important;	}
+		
+/* main flash */
+.descslide .lof-main-wapper{ 
+	overflow:hidden;
+	position:relative; padding:10px 0; border:#f2f2f2 solid 1px;}
+	
+	.descslide .lof-main-wapper .lof-main-item { 
+		overflow:hidden;
+		padding:0px;
+		margin:0px; 
+		height:100%;
+		width:100%;
+		position:absolute;}
+		
+		.descslide .lof-main-wapper .lof-main-item .lof-info{
+			border-top:1px solid #585858;
+			border-bottom:1px solid #585858;
+			padding:2px;
+		}
+		.descslide .lof-main-wapper .lof-main-item .lof-title { 
+			padding:0;
+			font-weight:bold;
+			margin:0 0 .25em;
+			font-size:18px;}
+		
+		.descslide .lof-main-wapper .lof-main-item .lof-description{
+			background:url(bg.png) repeat  ;	
+		
+			display: block;
+			height: 188px;
+	 		color:#FFF;
+			padding: 8px 20px;
+			position: absolute;
+			max-width: 345px;
+			min-width:300px;
+			top:55px;
+	 		border-bottom: solid #FFFFFF
+			 
+		}
+		.descslide .lof-main-wapper .lof-main-item .lof-description .readmore {
+			height: 23px!important; display: block;
+			clear:both;
+			width:75px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: bold;font-size: 10px; line-height:24px; padding: 0 16px 2px; background:#3F85CC ;
+			color: #fff; cursor: pointer; border: none; border-radius: 25px; -moz-border-radius: 25px; -webkit-border-radius: 25px;
+			margin: 10px 5px 3px 2px;
+		}	
+			
+/* item navigator */
+.descslide .lof-navigator-wrapper { 
+	position:relative;
+	margin-top:-35px;
+	z-index:2
+
+}
+	
+	.descslide .lof-navigator-outer  { 
+		position:absolute; 
+		right:0;
+		top:0px;
+		z-index:3;
+		overflow:hidden
+		 }
+		 
+		.descslide  ul.lof-navigator { 
+			top:0;
+			padding:0; 
+			margin:0;
+			position:absolute;
+			width:100%;}
+			
+			.descslide  ul.lof-navigator li { 
+				cursor:hand;
+				cursor:pointer;
+				list-style:none!important;
+				border-top:5px solid #777;
+				padding:0!important;
+				margin:0!important;
+			 
+				position:relative;
+			}
+			.descslide  ul.lof-navigator li:hover {
+			 }
+				
+				.descslide  ul.lof-navigator li div {
+					padding:1em 1.25em; position:relative}
+				.descslide  ul.lof-navigator li  .lof-title{ background:url(play.png) no-repeat right center; margin-right:12px; margin-top:5px;}		
+				.descslide .lof-thumbnails li { border:0!important;}
+				.descslide .lof-thumbnails li  img { float:none!important ;  border:#F3F3F3 solid 1px; padding:3px; background:#FFF }
+	 
+					
+			.descslide .lof-navigator li.active {
+			 
+			}
+			.descslide .lof-navigator   .lof-navinfo{ display:block; position:absolute; bottom:0;background:#FFF; border-bottom:-999em}
+			.descslide .lof-navigator li.active .lof-navinfo{ display:block; background:#FFF; border-top:#CCC solid 5px;border-bottom:#CCC solid 5px; }
+/**
+ * BUTTONS CONTROL
+ */
+.descslide  .lof-proccessbar{  width:100%; height:4px; position:absolute; top:10px;background:url(bg.png); z-index:9 }
+.descslide    .lof-startstop{position:absolute;top:15px;right:15px;z-index:3;width:16px;height:16px;cursor:hand; cursor:pointer;}
+.descslide  .lof-startstop div{ width:100%; height:100%;}
+.descslide   .lof-startstop .lof-start{ background:url(pause.png) no-repeat center center}
+.descslide    .lof-startstop .lof-stop{ background:url(play.png) no-repeat center center}
+
+ .descslide .buttons-control{
+	position:absolute; 
+	bottom:10px;
+	left:20px;
+	
+	height:60px;
+	width:110px}
+.descslide .lof-buttons-control{}
+	.descslide .lof-next, 
+	.descslide .lof-previous {
+	
+		width:22px;
+		height:218px;
+		top:65px;
+		text-indent:-9999em;
+		position:absolute;
+		z-index:10;
+		margin:0px;
+		cursor:hand; 
+		cursor:pointer; z-index:4}
+		
+		.descslide .lof-next {
+		 	background:url(next.png) no-repeat;	
+			right:-12px;
+		}
+			
+		.descslide .lof-previous {	
+			 background:url(previous.png) no-repeat;	
+			left:-7px;}
+			
+		.descslide .lof-next:hover {
+			   }
+			
+		.descslide .lof-previous:hover { 
+		 }
+/*
+ * css for override move the main wapper to the right side 
+ */
+ /* RIGHT ALIGMENT */
+.descslide .lof-right .lof-navigator-wrapper {  position:absolute; top:0; right:0 }
+.descslide .lof-right .lof-main-wapper		  { margin-left:auto; margin-right:inherit; float:left }
+.descslide .lof-right .lof-navigator-outer   { position:relative }
+.descslide .lof-bullets-wrapper { background:none}
+ /* LEFT ALIGMENT */
+.descslide .lof-left .lof-navigator-wrapper { position:absolute; top:0; left:0 }
+.descslide .lof-left .lof-main-wapper		 { margin-left:auto; margin-right:inherit; float:right }
+.descslide .lof-left .lof-navigator-outer	 { position:relative }
+.descslide .descslide .lof-left .lof-navigator li.active { background-position:center right;}
+.descslide .lof-left .lof-main-wapper .lof-main-item .lof-description{ position:absolute;top:0; right:0;left:auto }			 
+ /* TOP, BOTTOm ALIGMENT */
+.descslide .lof-top .lof-navigator-outer,  .lof-bottom .lof-navigator-outer{ position:relative; margin:0 auto }
+.descslide .lof-top .lof-navigator, 	    .lof-bottom .lof-navigator 		{ width:9999em !important }
+.descslide .lof-top .lof-navigator li,     .lof-bottom .lof-navigator li 	{ display:block; float:left; border-bottom:none; border-right:1px solid #777; }
+/* Top Aligment */
+.descslide .lof-top .lof-navigator li.active { background:#868686}
+.descslide .lof-top .lof-buttons-control { background-image:url(arrow_bg_t.png); top:auto; bottom:0; padding-top:12px; height:10px}
+/* Bottom Aligment */
+.descslide .lof-bottom .lof-navigator li.active img { border-color:#999    }
+.descslide .lof-bottom .lof-buttons-control { background-image:url(arrow_bg.png);  }
+/* Bullets Styles*/
+.descslide .lof-left .lof-bullets-wrapper{   top:30px; left:8px }
+.descslide .lof-right .lof-bullets-wrapper { top:30px;   right:14px; }
+.descslide .lof-top .lof-bullets-wrapper{	position:absolute!important; right:25px; top:20px; }
+.descslide .lof-bottom .lof-bullets-wrapper{	position:absolute!important; right:18px; bottom:10px; background:none;}
+.descslide .lof-navigator-wrapper .lof-bullets li {
+	width:25px!important;
+	height:21px!important;
+	text-indent: -9999px;
+	background:none!important;
+	border:none!important;
+}
+.descslide .lof-navigator-wrapper .lof-bullets li div{
+		width:21px!important;
+		height:21px!important;
+		margin-left:3px;
+		padding:0;
+		border:0;
+		background:url(slider_buttons.png) no-repeat top right;		
+}
+.descslide .lof-navigator-wrapper .lof-bullets li.active div{	background:url(slider_buttons.png) no-repeat top left;	}
+/* CSS3 Style */
+.descslide .lof-css3{	}

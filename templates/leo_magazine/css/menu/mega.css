@@ -1,0 +1,301 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+
+.menusys_mega {
+	background: #fff;
+	border:1px solid #e3e3e3;
+	overflow: hidden;
+	margin-bottom:12px;
+}
+div.subwrap-inner {
+	display: block;
+	width:auto !important;
+}
+#menusys_mega .menusub_mega {
+	position:absolute;
+	display:block;
+	z-index:999
+}
+#menusys_mega {
+	margin: 0px 10px 0 0;
+}
+#menusys_mega > li {
+	padding: 0;
+	float: left;
+	display: block;
+	background: none;
+	border-bottom: none;
+}
+#menusys_mega li.active a {
+}
+#menusys_mega li.last-item {
+	background: none;
+}
+#menusys_mega > li > a {
+	padding: 0 15px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Arial';
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	line-height: 34px;
+	font-weight: bold;
+	border-right: 1px solid #e3e3e3;
+}
+#menusys_mega > li:last-child > a {
+}
+#menusys_mega > li > a:hover, #menusys_mega > li > a:active, #menusys_mega > li > a:focus, #menusys_mega > li > a.active, #menusys_mega > li > a.active:hover, #menusys_mega > li > a.active:active, #menusys_mega > li > a.active:focus, #menusys_mega > li.hover > a, #menusys_mega > li.active > a {
+	background: #c21338;
+	color: #fff;
+}
+#menusys_mega li .menu-title {
+	padding: 0;
+	display: inline-block;
+}
+#menusys_mega li:hover a, #menusys_mega li a:hover, #menusys_mega li a:active, #menusys_mega li a:focus, #menusys_mega li a.active, #menusys_mega li a.active:hover, #menusys_mega li a.active:active, #menusys_mega li a.active:focus {
+}
+#menusys_mega li a.active .menu-title, #menusys_mega li a.active:hover .menu-title, #menusys_mega li a.active:active .menu-title, #menusys_mega li a.active:focus .menu-title {
+}
+#menusys_mega li.hasChild span.no-image, #menusys_mega li.hasChild a.active span.no-image {
+	display: block;
+	padding-right: 13px;
+	background: url(../../images/mega/arrow-submenu.png) no-repeat right 18px;
+}
+#menusys_mega > li.first-item a .menu-title {
+	background: url(../../images/default/icon_home_hover.png) no-repeat left 50% scroll;
+	text-indent: -9999px;
+	display: block;
+	width:16px;
+}
+#menusys_mega > li.first-item a.active .menu-title, #menusys_mega > li.first-item a:hover .menu-title, #menusys_mega > li.first-item a:active .menu-title, #menusys_mega > li.first-item a:focus .menu-title {
+	background: url(../../images/default/icon_home.png) no-repeat left 50% scroll;
+}
+/* MegaMenu Border
+--------------------------------------------------------- */
+#menusys_mega .level0 > .submenu-wrapper {
+}
+#menusys_mega .menusub_mega {
+	z-index: 999;
+	padding: 5px 0;
+	margin-top: -6px !important;
+	left:-9999em
+}
+#menusys_mega .menusub_mega .menusub_mega {
+	margin: -38px 0px 0px 0px !important;
+	padding: 10px 0;
+}
+#menusys_mega .subwrap-inner {
+	float: left;
+	background:#c21439;
+	border-bottom: 2px solid #000;
+	padding:15px 0;
+}
+#menusys_mega div.menucontent-wrapper .subwrap-inner {
+	border: 1px solid #c9c9c9;
+	margin-left: 10px;
+	padding:5px 0;
+	background: #c53553;
+}
+/*
+#menusys_mega div.subarrowtop{
+	background: url(../../images/mega/submega-top.png) no-repeat 10% top;
+	height: 8px;
+}
+*/
+#menusys_mega div.menucontent-wrapper-left {
+	display: inline-block;
+	width:100%;
+}
+#menusys_mega div.subwrap-inner2 {
+	margin:5px;
+	display:inline-block;
+}
+#menusys_mega div.menucontent-wrapper {
+	padding: 0;
+	width:100%;
+	display:block;
+	float:left;
+}
+#menusys_mega div.menusub_mega div.menusub_mega div.subarrowtop {
+}
+#menusys_mega div.menucontent-wrapper-left div.menucontent-wrapper-left {
+	background:#fff;
+	padding:0 0 5px 0;
+}
+#menusys_mega div.subwrap-inner2 div.subwrap-inner2 {
+	display: block;
+}
+#menusys_mega div.menucontent-wrapper div.menucontent-wrapper {
+	padding: 0;
+}
+#menusys_mega .megacol ul.mega-ul {
+	overflow:hidden;
+	padding: 1px 0;
+	margin:0;
+}
+#menusys_mega .menucontent-wrapper > div.megacol {
+	border-left: 1px dotted #df7f8a;
+	float: left;
+	padding: 0 10px;
+	height:285px;
+}
+#menusys_mega .menucontent-wrapper > .megacol:first-child {
+	border-left:none;
+}
+#menusys_mega .menucontent-wrapper .megacol .submenu-wrapper .megacol  {
+	float: left;
+	width: 210px;
+	position:relative;
+	height: auto;
+	padding: 0;
+}
+/* Child Content------------*/
+
+#menusys_mega .menu-image {
+	border: none;
+	float: left;
+	line-height: 44px;
+	padding: 8px 0 0;
+	margin-right: 3px;
+}
+#menusys_mega span.has-image {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: 2px 5px;
+}
+/* Mega Group----------*/
+#menusys_mega .menusub_mega .mega-group {
+	overflow: hidden;
+	margin: 0 10px 5px;
+	padding: 0 10px;
+	border-bottom: 2px solid #e8e8e8;
+}
+#menusys_mega .menusub_mega .mega-group a .menu-title {
+	color: #fff;
+	font: 14px 'VocesRegular';
+	margin: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+	text-transform: none;
+	display: block;
+}
+#menusys_mega li.hasChild .mega-group span.has-image, #menusys_mega li.hasChild .mega-group span.no-image {
+	background: none !important;
+	margin:0;
+	padding: 1px 0 1px 0;
+	display: block;
+}
+#menusys_mega .mega-group span.has-image {
+	padding: 3px 0 3px 25px;
+}
+#menusys_mega li.hasChild .mega-group a {
+	padding: 0;
+	background: none !important;
+}
+#menusys_mega .menusub_mega .mega-module {
+	clear: both;
+	line-height: 20px;
+	margin: 0;
+	color: #fff;
+}
+#menusys_mega .menusub_mega .mega-module .moduletable ul li {
+	padding: 10px 0;
+}
+#menusys_mega .menusub_mega .mega-module .moduletable ul li:first-child {
+	border-top: none;
+}
+#menusys_mega .menusub_mega .mega-module a {
+	color:#fff;
+}
+#menusys_mega .megacol ul.mega-ul li.lof-item .lof-description {
+	line-height: 20px;
+}
+#menusys_mega .menusub_mega .mega-module .moduletable ul li .lof-extrainfo .lof-itemDateCreated, #menusys_mega .menusub_mega .mega-module .moduletable ul li .module-extrainfo .moduleItemDateCreated {
+	border-right: 1px solid #EE6683;
+	color: #EE6683;
+}
+#menusys_mega .menusub_mega .mega-module .moduletable ul li .lof-extrainfo .lof-item-comment, #menusys_mega .menusub_mega .mega-module .moduletable ul li .module-extrainfo .moduleItemComments {
+	background: url(../../images/default/icon-comment2.png) no-repeat scroll left 50%;
+	color: #EE6683;
+	text-indent: 15px;
+	margin-left: 5px;
+}
+#menusys_mega .menu-desc {
+	padding: 0;
+	line-height: 15px;
+	font-size: 95%;
+	color: #707070;
+	display: block;
+}
+#menusys_mega li.hasChild .mega-group a .menu-title, #menusys_mega li.hasChild .mega-group a:hover .menu-title, #menusys_mega li.hasChild .mega-group a.active .menu-title {
+}
+#menusys_mega .menusub_mega .megacol {
+	display:block;
+}
+#menusys_mega .submenu-wrapper .submenu-wrapper .megacol .mega-ul {
+	margin: 0 10px;
+}
+/* Level2 MegaMenu
+--------------------------------------------------------- */
+#menusys_mega .megacol ul.mega-ul li.hasChild {
+}
+#menusys_mega .megacol ul.mega-ul li.hasChild:hover {
+}
+#menusys_mega .megacol ul.mega-ul li {
+	padding: 0;
+	float: none;
+	display: block;
+	line-height: 30px;
+	border-top: 1px dotted #df7f8a;
+}
+#menusys_mega .megacol ul.mega-ul li.lof-item {
+	padding: 0 !important;
+	border-top:none;
+}
+#menusys_mega .megacol ul.mega-ul li:first-child,
+#menusys_mega .megacol ul.mega-ul li.first-item {
+	border-top: none;
+}
+#menusys_mega li .megacol ul.mega-ul li span.no-image, #menusys_mega li .megacol ul.mega-ul li a.item:hover span.no-image, #menusys_mega li .megacol ul.mega-ul li a.active span.no-image {
+	padding: 0 0 0 10px;
+	background: url(../../images/default/icon-style.png) no-repeat 2px 50% scroll;
+	color:#fff;
+}
+#menusys_mega li.hasChild ul a, #menusys_mega li.hasChild ul a.active, #menusys_mega li.hasChild:hover ul a {
+	padding: 0px;
+	margin: 0;
+	display: block;
+	position: static;
+	text-shadow: none;
+}
+#menusys_mega li.hover ul.mega-ul a .menu-title, #menusys_mega li.hasChild ul.mega-ul li a .menu-title, #menusys_mega li.hasChild ul.mega-ul li a.active .menu-title, #menusys_mega li.hasChild ul.mega-ul li a.focus .menu-title {
+	margin: 0;
+	padding: 2px 0px;
+	display: block;
+	font-size: 12px;
+	font-family:"arial";
+	text-transform: none;
+	text-shadow: none;
+}
+#menusys_mega li.hasChild ul a span.has-image .menu-title, #menusys_mega li.hasChild:hover ul a span.has-image .menu-title, #menusys_mega li.hasChild ul a:hover span.has-image .menu-title {
+	padding: 2px 0 2px 25px;
+	margin: 0;
+	background: none;
+}
+#menusys_mega li.hasChild ul a:hover, #menusys_mega li.hasChild ul a:active, #menusys_mega li.hasChild ul a:focus, #menusys_mega li.hasChild ul.mega-ul a.active:hover {
+	text-decoration: none;
+	margin: 0;
+	padding-left: 0px;
+	display: block;
+}
+#menusys_mega li.hasChild.active ul li a.active .menu-title,  #menusys_mega li.hover ul.mega-ul a:hover .menu-title, #menusys_mega li.hasChild ul.mega-ul a:hover .menu-title, #menusys_mega li.hasChild ul.mega-ul a:active .menu-title, #menusys_mega li.hasChild ul.mega-ul a:focus .menu-title, #menusys_mega li.hasChild ul.mega-ul a.active:hover .menu-title {
+	color: #D7C932;
+}

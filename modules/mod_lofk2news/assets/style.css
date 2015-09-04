@@ -1,0 +1,95 @@
+/** GENERAL STYLE **/
+.lof-k2categorybox {background:url(images/block-bg.jpg) repeat-x #FFF; text-align:left;}
+.lof-k2categorybox a, .lof-k2categorybox h4 { color:#263B51; text-decoration:none; text-transform:none; padding:0; margin:0 } 
+.lof-k2categorybox .lof-header{ clear:both; height:18px; background:#DDDDDD; color:#666666  }
+.lof-k2categorybox .lof-header span{ margin-left:12px; font-size:11px; font-weight:bold;}
+.lof-k2categorybox .lof-leading, 
+.lof-k2categorybox .lof-primary,
+.lof-k2categorybox .lof-secondary,
+.lof-k2categorybox  .lof-subcategories{
+	float:left;	
+}
+.lof-k2categorybox .lof-leading:hover, 
+.lof-k2categorybox .lof-primary:hover,
+.lof-k2categorybox .lof-secondary:hover{
+	float:left;	
+}
+.lof-k2categorybox .lof-item img{
+	float:left;
+	background:#fff;
+	border: solid 1px #fff;
+	margin:2px;
+}
+.lof-k2categorybox .lof-item:hover img {border:#E6E6E6 solid 1px}
+.lof-k2categorybox  .lof-headermodule{ 
+	position:relative;padding:3px 0 13px 12px;
+	background:url(images/black.png) repeat-x left top;
+}
+.lof-k2categorybox .lof-headermodule a{  color:#FFF; font-weight:bold; font-size:105% }
+.lof-k2categorybox .lof-headermodule a:hover{ color:#F9F9F9}
+.lof-k2categorybox ul, .lof-k2categorybox li { position:relative; margin:0!important; padding:3px 6px!important; clear:both; display:block;  background:none!important}
+.lof-k2categorybox ul.lof-showitems{ float:right; margin-right:10%;}
+.lof-k2categorybox ul.lof-showitems li{ float: left; color:#FFF; padding:0 4px; list-style:none; list-style-type:none; background:none; }
+.lof-k2categorybox .lof-box-left{ width:85%; float:left;}
+.lof-k2categorybox .lof-box-left:hover{ background:#F8F8F8}
+.lof-k2categorybox .lof-notopic .lof-box-left { width:99.9%; padding:6px 0}
+/** ICONS STYLE **/
+.lof-k2categorybox .lof-icon-featured{ background:url(images/icon-featured.png) no-repeat;   }
+.lof-k2categorybox .lof-icon-news{ background:url(images/icon-news.gif) no-repeat;   }
+.lof-k2categorybox .lof-icon-updated{ background:url(images/icon-updated.gif) no-repeat;   }
+.lof-k2categorybox .lof-icon-featured span{ margin-left:20px; }
+.lof-k2categorybox .lof-icon-news span{ margin-left:28px; }
+.lof-k2categorybox .lof-icon-updated span { margin-left:45px; }
+/** LEADING STYLE **/
+.lof-k2categorybox  .lof-box-left .lof-leading{ width:24.8%; }
+.lof-k2categorybox  .lof-box-left .lof-leading h4{ font-size:120%}
+.lof-item-hits,     .lof-item-comment { float:left; font-weight:bold; font-size:11px; margin-left:3px} 
+.lof-k2categorybox  .lof-box-left .lof-leading .lof-item-hits b, .lof-k2categorybox  .lof-box-left .lof-leading .lof-item-comment b{
+	background:url(images/small-box.png) repeat; 
+	display:block;
+	float:left;
+	padding:2px 9px 4px;
+	color:#FFF}
+.lof-k2categorybox  .lof-box-left .lof-leading a.lof-readmore{
+	padding:2px  9px 7px 4px;
+	background:url(images/readmore-grey.png) no-repeat top right; 
+	float:right; color:#FFF; 
+	font-weight:bold;
+	font-size:11px;
+	text-align:center;}
+/** SECONDARY STYLE **/
+.lof-k2categorybox  .lof-box-left .lof-secondary{ width:35% }
+.lof-k2categorybox  .lof-box-left  .lof-counter{ position:absolute; top:0; right:0; }
+.lof-k2categorybox  .lof-box-left .lof-secondary  .lof-readmore{ font-weight:bold}
+.lof-k2categorybox  .lof-box-left .lof-secondary .lof-item-hits b,
+.lof-k2categorybox  .lof-box-left .lof-secondary .lof-item-comment b{
+	background:url("images/tiny-box.png") repeat-x scroll 0px 2px transparent; 
+	display:block;
+	float:left;
+	color:#FFF;font-size:9px;
+	padding:0px 6px 3px;
+}
+/****** PRIMARY ***********/
+.lof-k2categorybox  .lof-box-left .lof-primary{ width:40%}
+.lof-k2categorybox  .lof-box-left .lof-counter{ position:absolute; top:0; right:0; }
+.lof-k2categorybox  .lof-box-left .lof-primary .lof-item-hits b, .lof-k2categorybox  .lof-box-left .lof-primary .lof-item-comment b{
+	padding:0px 7px 0px 5px;
+	background:url("images/tiny-box.png") repeat-x scroll 0 2px transparent; 
+	display:block;
+	float:left;
+	color:#FFF;
+	font-size:9px;
+}
+/***************/
+.lof-k2categorybox  .lof-box-right{ width:15%; float:left;}
+.lof-k2categorybox  .lof-box-right:hover{ background:#F8F8F8}
+.lof-k2categorybox  .lof-box-right .lof-subcategories{font-size:11px; width:100%; padding:0 6px}
+/** BLOCK THEME **/
+.lof-k2categorybox .lof-blue .lof-headermodule { background:url(images/blue.png) repeat-x;}
+.lof-k2categorybox .lof-pink .lof-headermodule { background:url(images/pink.png) repeat-x; }
+.lof-k2categorybox .lof-green .lof-headermodule { background:url(images/green.png) repeat-x; }
+/** INJECTING MODULES STYLES **/
+.lof-injectpos .lof-module{ background:#fff; padding:3px 0; text-align:center }
+.lof-k2categorybox .lof-extrainfo{ font-size:10px; font-style:italic}
+
+.clearfix { clear:both}

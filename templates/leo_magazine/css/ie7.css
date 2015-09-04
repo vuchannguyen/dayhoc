@@ -1,0 +1,38 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+
+/* Mega Menu -------------------*/
+div.submenu-wrap{overflow:visible; }
+
+#menusys_mega{float:none;}
+
+#menusys_mega div.subwrapcenter-left,
+#menusys_mega div.subwrapcenter-right,
+#menusys_mega div.subwrapcenter{display: inline-block;}
+
+#menusys_mega div.subwrapcenter{float:left;}
+
+div.meda-item{float:none;}
+#leo-search .button{border:none;}
+div.moduletable .highslide-gallery ul li{height:60px;width:60px;}
+#leo-content-bottom1 {
+	width: 49.9%!important;}
+#leo-slideshow .slideshow1 .descslide .lof-main-wapper .lof-main-item .lof-description {
+	width: 270px !important;
+	min-width: 270px!important;
+	max-width: 270px!important;
+}
+#menusys_mega .menusub_mega .menusub_mega {
+	margin: -38px 0px 0px 180px !important;
+	padding: 10px 0;
+	left: auto !important;
+}
+#menusys_mega .menucontent-wrapper .megacol .submenu-wrapper .megacol  {
+position: static;}

@@ -1,0 +1,40 @@
+/*
+ * ------------------------------------------------------------------------
+ * LeoTravel template for joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright leotheme.com. All Rights Reserved.
+ * @license GNU / GPL2 http://www.gnu.org/licenses/gpl-2.0.html
+ * Author: leotheme.com
+ * Websites: http://www.leotheme.com 
+ * ------------------------------------------------------------------------
+*/
+
+
+body, html { margin: 0; padding: 0; }
+body { line-height:1.8; min-height:100%; color: #777; }
+a { text-decoration: none; color: #333; }
+a:hover, a:active, a:focus { color: #5778a1; }
+/* containers */
+ #leo-page {background: url("../images/default/bg-body.png") repeat scroll left top #ECECEC;}
+#page-container {
+  background: none!important;}
+#leo-page #leo-content {  margin: 0 auto; float: none !important; min-height: 490px; }
+#frame { margin: 0; background: #fff; overflow: hidden; padding: 10px 20px; border-radius: 10px;box-shadow: 0 0 3px #CCCCCC; }
+.leo-container { width:960px; margin: 0 auto; }
+#errorboxbody { font-size: 11px; padding: 0 20px 12px 42px; margin: 0 auto; }
+#errorNumber { float: left; padding: 31px 0 0; width: 39%; }
+h1.logo { margin: 15px 0 20px !important; padding: 0;}
+h1.logo a { display: block; margin: 0; text-indent: -999em; background: none!important; }
+h1.logo a img { display: block; margin: 0; border: none; }
+#leo-page h1, h2 { font: normal 170px/180px  Arial, sans-serif; text-align: center; padding: 0 }
+#leo-page h1 { margin: 0; color: #ff0000; text-shadow: 0 3px 0 #fff; }
+#leo-page h2 { margin: 0 0 52px 0; font: normal 34px/20px  Arial, sans-serif; color: #ed4747; line-height: 1.2; }
+#errorboxbody { float: left }
+#errorboxbody > p { margin: 28px 0 20px }
+ul { list-style-type: square; padding: 0 0 0 36px; }
+ol { padding: 0; list-style-position: inside; }
+ol li, ol li strong { font: normal 12px/180% Arial, sans-serif }
+#techinfo { text-align:center; }
+#techinfo { }
+p > strong { font: bold 12px/180% Arial, sans-serif; text-transform: uppercase; color: #444; }
+#leo-blockbottom { margin-top:20px;}

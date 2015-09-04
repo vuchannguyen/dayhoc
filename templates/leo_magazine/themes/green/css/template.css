@@ -1,0 +1,15 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+a:hover, a:active, a:focus,#leo-topmenu ul.menu li a:hover {
+    color: #3b7513;
+}
+#leo-logo .leo-logo a {
+	background: url(../images/logo.png) no-repeat 0 0;
+}

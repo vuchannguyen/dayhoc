@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fields name="params">
+    
+	<fieldset name="themes" label="General">
+      	  <field name="thumbs-navigator_layout" type="flist" hide_none="true" hide_default="true"  label="MOD_LOFSLIDESHOW_NAV_LAYOUT" description="MOD_LOFSLIDESHOW_NAV_LAYOUT_DESC">
+		 	<option class="mixed">Mixed</option>
+			
+		  </field>
+		     <field name="thumbs-navigator_pos" type="flist" default="bottom" label="NAVIGATOR_POSITION" description="NAVIGATOR_POSITION_DESC">
+              <option value="0">JHIDE</option> 
+              <option value="bottom">BOTTOM</option>
+          </field>        
+           <field name="thumbs-descdirection" type="flist" default="right" label="DESCRIPTION_DIRECTION" description="DESCRIPTION_DIRECTION_DESC">
+              <option value="left">LEFT</option> 
+              <option value="right">RIGHT</option>
+          </field>  
+		  
+  		
+	  
+    </fieldset>
+</fields>	
+</form>	
+	

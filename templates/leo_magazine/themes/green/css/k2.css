@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+/* --- Global K2 container --- */
+table.calendar tr td.calendarCurrentMonth {
+	color: #3b7513
+}
+table.calendar tr td.calendarToday {
+	background:#3b7513;
+}
+table.calendar tr td.calendarTodayLinked {
+	background:#3b7513;
+}
+.catItemHeader .catItemTitle a:hover {
+	color: #3b7513;
+}
+.catItemHeader .catItemTitle span sup, .itemHeader .itemTitle span sup {
+	color: #3b7513;
+} 
+.userItemTagsBlock ul.userItemTags li a:hover,.catItemTagsBlock ul.catItemTags li a:hover, .itemTagsBlock ul.itemTags li a:hover {
+	color: #3b7513;
+}
+.itemNavigation span.itemNavigationTitle {
+	color: #3b7513;
+}
+.itemCommentsForm form span#formLog {
+	color:#3b7513;
+}
+.subCategory h3 span {
+	color: #3b7513;
+}
+#itemListLinks .catItemView a:hover{
+	color: #3b7513;
+}
+.catItemCommentsLink a:hover {
+	color: #3b7513;
+}

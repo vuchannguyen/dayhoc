@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+
+/*slideshow*/
+#leo-slideshow .slideshow1 .moduletable {
+    background: none repeat scroll 0 0 #3b7513;
+}
+#leo-slideshow .slideshow1 .descslide .preload {
+    background: none repeat scroll 0 0 #3b7513;
+}
+#leo-slideshow .slideshow1 .lof-information .lof-date {
+	color: #81bd58;
+	border-right: 1px solid #81bd58;
+}
+#leo-slideshow .slideshow1 .lof-information .lof-item-comment {
+	background: url(../images/icon-comment2.png) no-repeat left 50% scroll;
+	color: #81bd58;
+}
+#leo-slideshow .slideshow1 .descslide ul.lof-navigator li div span {
+    border: 1px solid #999;
+}
+#leo-maincontent-inner,
+div.moduletable_style {
+    border-top: 1px solid #3b7513;
+}
+.listmenu ul li,
+#poll_links ul li,
+div.lof-k2categorybox .lof-secondary ul li {
+    background: url(../images/icon-li.png) no-repeat scroll left 50% !important;
+}
+#leo-userbottom2 a:hover,
+div.lof-k2categorybox a:hover, div.lof-k2categorybox h4:hover,
+#leo-showcase-top .lof-sliding .lof-inner .lof-title:hover ,
+.moduletable_style-comment .k2LatestCommentsBlock span.lcComment:hover,
+div.lof-k2categorybox .lof-secondary ul li a:hover,
+div.lof-k2categorybox .lof-secondary ul li h4:hover,div.style3 div.lof-k2categorybox .lof-secondary ul li a:hover, div.style3 div.lof-k2categorybox .lof-secondary ul li h4:hover {
+	color: #3b7513;
+}
+.breadcrumbs a.pathway:hover {
+	color: #3b7513;
+}

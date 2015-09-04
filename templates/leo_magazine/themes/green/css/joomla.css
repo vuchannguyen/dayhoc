@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+ /* HEADING STYLE
+ */
+.button, button, button.button, input[type="button"] {
+	background: #3b7513;
+}
+p.readmore a, a.readon, a.k2ReadMore, a.subCategoryMore {
+	background:#3b7513;
+}
+p.readmore a:hover, a.readon:hover, a.k2ReadMore:hover, a.subCategoryMore:hover {
+	background:#44535e;
+}
+div.k2Pagination ul li > span, div.pagination ul li > span, .pagination-prev > span, div.k2Pagination ul li a:hover, div.pagination ul li a:hover, div.pagination ul li > span:hover, ul.pagination li a:hover, ul.pagination > li > span {								    background:#3b7513;
+	border: 1px solid #3b7513;
+}

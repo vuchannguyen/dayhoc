@@ -1,0 +1,746 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+
+html, body, fieldset {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+}
+body.fs1 {
+	font-size: 10px;
+	line-height: 16px;
+}
+body.fs2 {
+	font-size: 11px;
+	line-height: 17px;
+}
+body.fs3 {
+	font-size: 12px;
+	line-height: 20px;
+	background: #f4f5f7;
+}
+body.fs4 {
+	font-size: 13px;
+	line-height: 19px;
+}
+body.fs5 {
+	font-size: 14px;
+	line-height: 20px;
+}
+body.fs6 {
+	font-size: 15px;
+	line-height: 21px;
+}
+.wrap {
+	clear: both;
+	width: 100%;
+}
+a {
+	outline: none;
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	color:#c21338;
+}
+/*  */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	font-size:12px;
+	color: #666;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+ul {
+	list-style: none;
+}
+img {
+	max-width:100%
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+}
+/* PAGE AND CONTAINER STYLE --------*/
+#page-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url(../images/default/shadow_header.png) repeat-x left 220px scroll;
+}
+#page-container-inner {
+	width:100%;
+}
+.leo-container {
+	margin: 0 auto;
+}
+.leo-container-inner {
+	padding: 0 5px;
+	overflow: hidden;
+}
+/**
+ * TOP POST STYLE
+ */
+#leo-blockheader {
+}
+#leo-toppos, #leo-usertop1, #leo-usertop2, #leo-userbottom, #leo-userbottom1, #leo-userbottom2, #leo-userwrap7 {
+	margin: 0;
+	width: 100%;
+	clear: both;
+}
+#leo-showcase-bottom-inner, #leo-slideshow-inner, #leo-usertop1-inner, #leo-mainwrap-inner, #leo-userbottom-inner {
+	padding: 20px 8px 0;
+	display: block;
+	overflow: hidden;
+}
+#leo-usertop1-inner {
+	padding-left:10px;
+	padding-right: 10px;
+}
+#leo-toppos-inner-inner, #leo-usertop1-inner-inner, #leo-usertop2-inner-inner, #leo-breadcrumbs-top-inner-inner, #leo-breadcrumbs-bottom-inner-inner, #leo-userbottom-inner-inner, #leo-userbottom1-inner-inner, #leo-userbottom2-inner-inner {
+	padding: 0;
+}
+#leo-toppos {
+	background-color: #3a4258;
+	overflow: hidden;
+}
+#leo-toppos.bg_top0 {
+	background-image: url(../images/bgtop/bg_top0.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top1 {
+	background-image: url(../images/bgtop/bg_top1.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top2 {
+	background-image: url(../images/bgtop/bg_top2.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top3 {
+	background-image: url(../images/bgtop/bg_top3.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top4 {
+	background-image: url(../images/bgtop/bg_top4.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top5 {
+	background-image: url(../images/bgtop/bg_top5.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top6 {
+	background-image: url(../images/bgtop/bg_top6.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top7 {
+	background-image: url(../images/bgtop/bg_top7.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top8 {
+	background-image: url(../images/bgtop/bg_top8.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-userbottom2 .leo-module h3.title{
+	font: normal 16px "VocesRegular";
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 20px;
+}
+#leo-userbottom2 .leo-box-inside {
+	padding: 0 15px;
+}
+#leo-userbottom2 .leo-box-left .leo-box-inside {
+	margin-left: -10px;
+}
+#leo-userbottom2 .leo-box-right .leo-box-inside {
+	margin-right: -30px;
+}
+#leo-userbottom2 a {
+	color: #9da8c6;
+}
+#leo-userbottom2 a:hover {
+	color: #c21338;
+}
+#leo-toppos-inner {
+	padding: 0;
+}
+#leo-usertop1-inner {
+}
+#leo-userbottom1-inner {
+	padding: 0;
+	overflow: hidden;
+}
+/* BREADCRUMBS--------*/
+#leo-breadcrumbs-bottom, #leo-breadcrumbs-top {
+	height: 30px;
+}
+#leo-breadcrumbs-bottom .leo-container, #leo-breadcrumbs-top .leo-container {
+	position: relative;
+}
+#leo-breadcrumbs-bottom .moduletable, #leo-breadcrumbs-top .moduletable {
+	margin-bottom: 0;
+}
+/* COLSPAN -----------*/
+#leo-colspan1, #leo-colspan2 {
+	margin: 0;
+}
+#leo-colspan1 .leo-module {
+	margin-bottom: 0;
+}
+/* MODULETABLE --------*/
+
+div.modulecontent {
+	padding: 0 10px;
+}
+
+h3.moduletitle {
+border-bottom: 1px solid #E3E3E3;
+    color: #333333;
+    font: 18px/35px 'VocesRegular';
+    padding-left: 15px;
+	margin: 0;
+	text-transform: uppercase;
+}
+div.leo-module {
+	position: relative;
+	margin: 0 0 10px;
+}
+/* HEADER
+--------------------------*/
+#leo-blockheader .leo-container-inner {
+	margin:0;
+}
+#leo-toppos .leo-module, #leo-blockheader .leo-module {
+	margin: 0;
+	overflow: hidden;
+}
+/* LOGO ---------*/
+#leo-logo {
+	float: left;
+	width: 140px;
+}
+#leo-logo .leo-logo {
+	margin: 15px 0;
+	display: block;
+}
+#leo-logo .leo-logo a {
+	display: block;
+	width: 140px;
+	height: 44px;
+	background: url(../images/default/logo.png) no-repeat 0 0;
+}
+#leo-logo .leo-logo a span {
+	display: none;
+}
+/* HEADER TOP-------*/
+#leo-header-top {
+	float: right;
+	position: relative;
+}
+#leo-header-top-inner {
+	margin-top: 15px;
+}
+/* TOP MENU ------*/
+#leo-time {
+}
+#leo-topmenu {
+	float:right;
+}
+#leo-topmenu .moduletable {
+	margin-bottom: 0;
+	float:left;
+}
+#leo-topmenu ul.menu {
+	margin:13px 0;
+	overflow: hidden;
+	display: inline-block;
+}
+#leo-topmenu ul.menu li {
+	border-bottom: none;
+	line-height:23px;
+	display:inline-block;
+	float:left;
+}
+#leo-topmenu ul.menu li:first-child a {
+	border-left:none;
+}
+#leo-topmenu ul.menu li a {
+	display: inline-block;
+	line-height: 100%;
+	color:#8ea1d7;
+	font-size: 11px;
+	border-left: 1px solid #616879;
+	padding: 0 13px 0 10px;
+	text-transform: uppercase;
+	font-family: "Arial";
+	float:left;
+}
+#leo-topmenu ul.menu li a:hover {
+	color:#C21338;
+}
+#leo-toppos .modulecontent {
+	padding: 0;
+}
+/* SEARCH --------*/
+#leo-search {
+	float: right;
+}
+#leo-search div.search {
+	background:none;
+	width:100%;
+	display:inline-block;
+	border: 0px solid #3b2569;
+}
+#mod-search-searchword {
+	background: url(../images/default/icon-search.png) no-repeat scroll 95% 50% #fff;
+	border: 1px solid #e8e8e8;
+	box-shadow: 0 0 4px #e8e8e8 inset;
+	color:#999;
+	float:left;
+	height: 20px;
+	font-size:10px;
+	font-family: "Arial";
+	border-radius: 0;
+	margin: 5px 0;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+#leo-search .button {
+	float:right;
+}
+/* MAINMENU
+--------------------------*/
+#leo-mainmenu {
+	overflow: hidden;
+}
+#leo-mainmenu-inner {
+}
+#leo-responsivemenu {
+	display:none;
+}
+/* SLIDESHOW
+--------------------------*/
+#leo-slideshow {
+}
+#leo-slideshow .slideshow1 {
+	width: 68.5%;
+	overflow: hidden;
+	float:left;
+}
+#leo-content-toptop .modulecontent {
+	margin: 0 -10px;
+}
+#leo-content-toptop h3.moduletitle {
+	margin: 0 -10px;
+}
+#leo-content-toptop .leo-module {
+	margin-bottom:0;
+}
+.moduletable_awards .modulecontent,
+#leo-userbottom2 .modulecontent,
+#leo-content-bottom1 .modulecontent,
+#leo-content-bottom2 .modulecontent,
+#leo-content-bottombottom .modulecontent,
+#leo-content-toptop .modulecontent,
+#leo-showcase-top .modulecontent,
+#leo-slideshow .slideshow2 .modulecontent,
+#leo-slideshow .slideshow1 .modulecontent {
+	padding: 0;
+}
+#leo-slideshow .slideshow2 {
+	width: 31.5%;
+	overflow: hidden;
+	float: left;
+}
+/* showcase bottom
+--------------------------*/
+/*
+ * SPORTLIHT 
+ */
+ 
+.leo-usercol {
+	float: left;
+}
+.leo-box-inside {
+	padding: 0 10px;
+}
+#leo-mainwrap {
+	width:100%;
+	display:inline-block;
+}
+#leo-mainwrap-inner {
+	display:block;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.page-inset {
+	width:100%;
+	display: inline-block;
+}
+#leo-mainwrap .leo-container #leo-mainwrap {
+}
+/*
+ * WIDTH, DIRECTION ALIGNMENT FOR ALL COLUMNS
+ */
+ #leo-mainwrap .leo-container-inner {
+ 	padding: 0;
+}
+#leo-mainwrap, #leo-mainwrap-left, #leo-mainwrap-right, #leo-mainwrap-full {
+	width: 100%;
+	position: relative;
+}
+/* Create a default width for three 3 main column */
+#leo-left {
+	float: left;
+}
+#leo-content {
+	float: left;
+}
+#leo-right {
+	float: right;
+}
+#leo-mainwrap-left #leo-content {
+	width: 75%;
+}
+#leo-mainwrap-right #leo-content {
+	width:75%
+}
+#leo-mainwrap-full #leo-content {
+	width: 100%;
+}
+#leo-left-inner, #leo-right-inner, #leo-content-inner {
+	margin: 0 5px;
+}
+#leo-showcase-top .leo-container-inner, #leo-showcase-bottom1 .leo-container-inner, #leo-showcase-bottom2 .leo-container-inner, #leo-mainwrap .leo-container-inner, #leo-userbottom .leo-container-inner {
+	overflow: hidden;
+}
+/* Left Column */
+#leo-left {
+  position:relative;
+    left:70%;
+    overflow:hidden;
+}
+.leo-layout-crl #leo-content, .leo-layout-lrc #leo-content {
+	margin: 0;
+}
+
+.leo-layout-crl #leo-left {
+	float: right;
+}
+.leo-layout-crl #leo-content {
+	float: left;
+}
+.leo-layout-crl #leo-right {
+	float: right;
+}
+/* Right Column  */
+ 
+.leo-layout-lrc #leo-right {
+	float: left;
+}
+.leo-layout-lrc #leo-content {
+	float: right;
+}
+/* Right Column  */
+.leo-layout-rcl #leo-right {
+	float: left;
+}
+.leo-layout-rcl #leo-left {
+	float: right;
+}
+.leo-layout-rcl #leo-content {
+	float: right;
+}
+/*Main content*/
+#leo-maincontent-inner {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #E4E4E4;
+    border-top: 1px solid #C21338;
+	padding: 0 10px 10px 10px ;
+	margin-bottom:10px;
+	overflow: hidden;
+}
+.componentheading {
+    border-bottom: 1px solid #E3E3E3;
+    color: #333333;
+    font: 18px/35px 'VocesRegular';
+    padding-left: 15px;
+	text-transform: uppercase;
+	margin: 0 -10px;
+}
+/*leo-userbottom*/
+#leo-userbottom .leo-container-inner {
+	padding: 0 0 25px;
+	border-bottom: 2px solid #dedede;
+}
+#leo-userbottom #leo-user9 {
+	width: 71.5%!important;
+}
+#leo-userbottom #leo-user9 .leo-box-inside {
+	width: 94%;
+}
+#leo-userbottom #leo-user10 .leo-box-inside,  #leo-userbottom #leo-user9 .leo-box-inside {
+	overflow: hidden;
+	background: #ececec;
+	border: 1px solid #d1d1d1;
+	padding-bottom: 10px;
+}
+#leo-userbottom #leo-user10 {
+	width: 28.5%!important;
+}
+#leo-userbottom .leo-box-inside {
+	margin: 0 10px;
+}
+#leo-userbottom .leo-module {
+	margin-bottom: 0;
+}
+/* leo-blockbottom */
+#leo-blockbottom {
+	background: #3a4258;
+	color: #fff;
+}
+#leo-blockbottom.bg_bottom0 {
+	background-image: url(../images/bgbottom/bg_bottom0.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom1 {
+	background-image: url(../images/bgbottom/bg_bottom1.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom2 {
+	background-image: url(../images/bgbottom/bg_bottom2.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom3 {
+	background-image: url(../images/bgbottom/bg_bottom3.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom4 {
+	background-image: url(../images/bgbottom/bg_bottom4.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom5 {
+	background-image: url(../images/bgbottom/bg_bottom5.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom6 {
+	background-image: url(../images/bgbottom/bg_bottom6.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom7 {
+	background-image: url(../images/bgbottom/bg_bottom7.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom8 {
+	background-image: url(../images/bgbottom/bg_bottom8.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+/* leo-userbottom1 */
+ #leo-userbottom1 {
+	background: url(../images/default/bg-footer.png) repeat-x left top scroll;
+}
+#leo-userbottom1 .moduletable, #leo-userbottom1 .moduletable_menu {
+	margin: 15px 0;
+}
+#leo-userbottom1 .leo-usercol .leo-box-inside {
+	background: url(../images/default/border-h.png) repeat-y left top scroll;
+	padding: 0 30px;
+}
+#leo-userbottom1 .leo-usercol:first-child .leo-box-inside {
+	background: none;
+}
+#leo-userbottom1 .moduletable h3, #leo-userbottom1 .moduletable_menu h3 {
+	font: normal 22px "VocesRegular";
+	text-transform: uppercase;
+	color:#222
+}
+/* FOOTER
+--------------------------*/
+#leo-footer {
+	width: 100%;
+	display: inline-block;
+	color:#999;
+}
+#leo-footer .leo-container {
+	background: url(../images/default/border.png) repeat-x left top scroll;
+}
+#leo-copyright {
+	float: left;
+	width: 100%;
+	line-height: 45px;
+}
+#leo-copyright p:last-child {
+	background: url(../images/default/bg-logo-leotheme.png) no-repeat right 50% scroll;
+	line-height: 45px;
+	padding-right: 50px;
+}
+#leo-copyright p {
+	margin: 0;
+}
+#leo-copyright a {
+	color:#fff;
+}
+#leo-copyright a:hover {
+	color:#bfd76d;
+}
+
+/*category content*/
+.items-row .item, .items-leading .item {
+	border-bottom: 1px dotted #ddd;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.items-row .item h2, .items-leading .item h2 {
+	margin: 5px 0;
+	font: 18px "VocesRegular";
+}
+.blog > h1, .blog > h2, .item-page > h2,.contact h1 ,.categories-list h1, .category-list h1,.blog-featured h1,.contact-category h1,.login h2, .remind h1, .reset h1, .weblink-category h2{
+	 border-bottom: 1px solid #E3E3E3;
+    color: #333333;
+    font: 18px/35px 'VocesRegular';
+    margin: 0 -10px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+/***/
+
+body.pattern1 {
+	background-image:url('../images/patterns/pattern1.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern2 {
+	background-image:url('../images/patterns/pattern2.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern3 {
+	background-image:url('../images/patterns/pattern3.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern4 {
+	background-image:url('../images/patterns/pattern4.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern5 {
+	background-image:url('../images/patterns/pattern5.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern6 {
+	background-image:url('../images/patterns/pattern6.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern7 {
+	background-image:url('../images/patterns/pattern7.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern8 {
+	background-image:url('../images/patterns/pattern8.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern9 {
+	background-image:url('../images/patterns/pattern9.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern10 {
+	background-image:url('../images/patterns/pattern10.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern11 {
+	background-image:url('../images/patterns/pattern11.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern12 {
+	background-image:url('../images/patterns/pattern12.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern13 {
+	background-image:url('../images/patterns/pattern13.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern14 {
+	background-image:url('../images/patterns/pattern14.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern15 {
+	background-image:url('../images/patterns/pattern15.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}
+body.pattern16 {
+	background-image:url('../images/patterns/pattern15.png');
+	background-position: top left;
+	background-repeat: repeat !important;
+}

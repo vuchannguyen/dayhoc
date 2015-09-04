@@ -1,0 +1,41 @@
+/** 
+# The real design - December 2011 template (for Joomla 1.6/1.7)
+ */
+/*----------------------------------------------------------------------
+	Common Elements
+----------------------------------------------------------------------*/
+
+/* --- Global K2 container --- */
+table.calendar tr td.calendarCurrentMonth {
+	color: #1a9afc
+}
+table.calendar tr td.calendarToday {
+	background:#1a9afc;
+}
+table.calendar tr td.calendarTodayLinked {
+	background:#1a9afc;
+}
+.catItemHeader .catItemTitle a:hover {
+	color: #1a9afc;
+}
+.catItemHeader .catItemTitle span sup, .itemHeader .itemTitle span sup {
+	color: #1a9afc;
+} 
+.userItemTagsBlock ul.userItemTags li a:hover,.catItemTagsBlock ul.catItemTags li a:hover, .itemTagsBlock ul.itemTags li a:hover {
+	color: #1a9afc;
+}
+.itemNavigation span.itemNavigationTitle {
+	color: #1a9afc;
+}
+.itemCommentsForm form span#formLog {
+	color:#1a9afc;
+}
+.subCategory h3 span {
+	color: #1a9afc;
+}
+#itemListLinks .catItemView a:hover{
+	color: #1a9afc;
+}
+.catItemCommentsLink a:hover {
+	color: #1a9afc;
+}

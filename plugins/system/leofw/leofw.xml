@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="system">
+	<name>plg_system_leofw</name>
+	<author>LeoTheme</author>
+	<creationDate>December 2011</creationDate>
+	<copyright>Copyright (C) 2010 - 2011 LeoTheme. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>leotheme@gmail.org</authorEmail>
+	<authorUrl>www.leothem.org</authorUrl>
+	<version>1.7.0</version>
+	<description>LeoFramework For LeoTheme</description>
+	<files>
+		<filename plugin="leofw">leofw.php</filename>
+		<filename plugin="leofw">index.html</filename>
+		<folder plugin="leofw">admin</folder>
+		<folder plugin="leofw">libs</folder>
+		<folder plugin="leofw">fonts</folder>
+		<folder plugin="leofw" >html</folder>
+		<folder plugin="leofw">layouts</folder>
+		<folder plugin="leofw">menu</folder>
+		<folder plugin="leofw">typo</folder>
+		<folder plugin="leofw">assets</folder>
+	</files>
+	 
+</extension>

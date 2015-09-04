@@ -1,0 +1,377 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+/* CSS Document */
+img {
+	max-width:100%
+}
+@media only screen and (min-width: 768px) and (max-width: 975px) {
+/* slidershow */
+#menusys_mega > li > a {
+	padding: 0 12px !important;
+}
+#leo-slideshow .slideshow1 .descslide .lof-title a {
+	font-size:24px;
+	line-height: 100%;
+}
+#leo-slideshow .slideshow1 .descslide .lof-top .lof-navigator-wrapper , #leo-slideshow .slideshow1 .lof-bottom .lof-navigator-wrapper {
+    background: url(../images/default/bg-nav.png) repeat scroll left top;
+    margin:  -60px auto 0;
+    padding: 0;
+    right: 0;
+	text-align:center;
+	z-index:10;
+}
+#leo-slideshow .slideshow1 .descslide .lof-top .lof-navigator-outer, #leo-slideshow .slideshow1 .lof-bottom .lof-navigator-outer {
+    background: none!important;
+    margin: 0 18%!important;
+    padding:0;
+    right: 0;float:none;
+}
+
+#leo-slideshow .slideshow1 .descslide .lof-thumbnails li img,
+.descslide .lof-main-wapper .lof-main-item a img {
+	width:100%;
+}
+/*lofk2scroller*/
+#leo-showcase-top .lof-sliding .lof-main-wapper{width: 95%!important; margin: 0 40px !important;}
+#leo-showcase-top .lof-sliding .lof-main-wapper .lof-main-item {width: 95%!important;}
+#leo-showcase-top .lof-sliding .lof-image {
+	width: 97%!important;
+}
+.k2ItemsBlock ul li a.moduleItemTitle,
+div.lof-k2categorybox a, div.lof-k2categorybox h4,
+#leo-showcase-top .lof-sliding .lof-inner .lof-title {
+	font-size: 13px!important;}
+/*K2*/
+.tagItemImageBlock span.tagItemImage img, .userItemImageBlock span.userItemImage img, span.itemImage img,
+span.itemImage img, span.catItemImage img, .subCategory a.subCategoryImage img{
+	width: 98%!important;}
+}
+	 
+	  @media only screen and (min-width: 600px)  and  (max-width: 767px) {
+#leo-content,
+#leo-right,
+#leo-left {
+	width: 100%!important;
+}
+#leo-userbottom2 .leo-usercol{
+	width:50%!important;
+}
+#leo-mainmenu #leo-responsivemenu {
+ display: block !important;
+}
+#leo-mainmenu .leo-container-inner {
+ display: none !important;
+}
+#leo-logo {
+ clear: both;
+ display: block;
+ width: 100%;
+}
+#leo-logo a {
+ margin: 0 auto;
+}
+#leo-mainmenu {
+ float: none!important;
+ width: 100%;
+} 
+
+#menusys_mega > li > a {
+	padding: 0 12px !important;
+}
+#leo-slideshow .slideshow2,
+#leo-slideshow .slideshow1 {
+	width:100%!important;
+}
+#leo-slideshow .slideshow1 .descslide .lof-title a {
+	font-size:22px;
+	line-height: 110%;
+}
+#leo-slideshow .slideshow1 .descslide .lof-thumbnails li img,
+.descslide .lof-main-wapper .lof-main-item a img {
+	width:100%;
+}
+/*lofk2scroller*/
+#leo-showcase-top .lof-sliding .lof-main-wapper{width: 95%!important; margin: 0 40px !important;}
+#leo-showcase-top .lof-sliding .lof-main-wapper .lof-main-item {width: 95%!important;}
+#leo-showcase-top .lof-sliding .lof-image {
+	width: 97%!important;
+}
+.k2ItemsBlock ul li a.moduleItemTitle,
+div.lof-k2categorybox a, div.lof-k2categorybox h4,
+#leo-showcase-top .lof-sliding .lof-inner .lof-title {
+	font-size: 12px!important;}
+/*K2*/
+.tagItemImageBlock span.tagItemImage img, .userItemImageBlock span.userItemImage img, span.itemImage img,
+span.itemImage img, span.catItemImage img, .subCategory a.subCategoryImage img{
+	width: 98%!important;} 
+ }
+ 
+ 
+ 
+ @media only screen and (min-width: 480px)  and  (max-width: 600px) {
+ #leo-content,
+#leo-right,
+#leo-left {
+	width: 100%!important;
+}
+#leo-userbottom2 .leo-usercol{
+	width:50%!important;
+}
+#leo-mainmenu #leo-responsivemenu {
+ display: block !important;
+}
+#leo-mainmenu .leo-container-inner {
+ display: none !important;
+}
+#leo-logo {
+ clear: both;
+ display: block;
+ width: 100%;
+}
+#leo-logo a {
+ margin: 0 auto;
+}
+#leo-mainmenu {
+ float: none!important;
+ width: 100%;
+} 
+
+#menusys_mega > li > a {
+	padding: 0 12px !important;
+}
+#leo-slideshow .slideshow1{
+	display:none;
+}
+#leo-slideshow .slideshow2 {
+	width:100%!important;
+}
+
+#leo-slideshow .slideshow1 .descslide .lof-thumbnails li img,
+.descslide .lof-main-wapper .lof-main-item a img {
+	width:100%;
+}
+/*lofk2scroller*/
+#leo-showcase-top {
+	display: none;
+}
+.k2ItemsBlock ul li a.moduleItemTitle,
+div.lof-k2categorybox a, div.lof-k2categorybox h4 {
+	font-size: 12px!important;}
+/*K2*/
+.tagItemImageBlock span.tagItemImage img, .userItemImageBlock span.userItemImage img, span.itemImage img,
+span.itemImage img, span.catItemImage img, .subCategory a.subCategoryImage img{
+	width: 98%!important;} 
+ 
+ }
+
+ @media only screen and (min-width: 320px)  and (max-width: 480px) {
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	font-size: 99%;
+}
+	 #leo-content,
+#leo-right,
+#leo-left {
+	width: 100%!important;
+}
+#leo-userbottom2 .leo-usercol{
+	width:100%!important;
+}
+#leo-mainmenu #leo-responsivemenu {
+ display: block !important;
+}
+#leo-mainmenu .leo-container-inner {
+ display: none !important;
+}
+#leo-logo {
+ clear: both;
+ display: block;
+ width: 100%;
+}
+#leo-logo a {
+ margin: 0 auto;
+}
+#leo-mainmenu {
+ float: none!important;
+ width: 100%;
+} 
+
+#menusys_mega > li > a {
+	padding: 0 12px !important;
+}
+#leo-slideshow .slideshow1{
+	display:none;
+}
+#leo-slideshow .slideshow2 {
+	width:100%!important;
+}
+
+#leo-slideshow .slideshow1 .descslide .lof-thumbnails li img,
+.descslide .lof-main-wapper .lof-main-item a img {
+	width:100%;
+}
+.style3 .lof-k2categorybox .lof-box-left .lof-primary,
+.style3 .lof-k2categorybox .lof-box-left .lof-leading {
+	width:50%!important;
+}
+.style3 .lof-k2categorybox .lof-box-left .lof-secondary {
+	width: 100%!important;
+}
+#leo-content-bottom1,#leo-content-bottom2 {
+	width: 100% !important;
+}
+/*lofk2scroller*/
+#leo-showcase-top {
+	display: none;
+}
+.k2ItemsBlock ul li a.moduleItemTitle,
+div.lof-k2categorybox a, div.lof-k2categorybox h4 {
+	font-size: 12px!important;}
+/*K2*/
+.tagItemImageBlock span.tagItemImage img, .userItemImageBlock span.userItemImage img, span.itemImage img,
+span.itemImage img, span.catItemImage img, .subCategory a.subCategoryImage img{
+	width: 98%!important;}
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 200px) and (max-width: 320px) {
+
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	font-size: 99%;
+}
+	 #leo-content,
+#leo-right,
+#leo-left {
+	width: 100%!important;
+}
+#leo-userbottom2 .leo-usercol{
+	width:100%!important;
+}
+#leo-mainmenu #leo-responsivemenu {
+ display: block !important;
+}
+#leo-mainmenu .leo-container-inner {
+ display: none !important;
+}
+#leo-logo {
+ clear: both;
+ display: block;
+ width: 100%;
+}
+#leo-logo a {
+ margin: 0 auto;
+}
+#leo-mainmenu {
+ float: none!important;
+ width: 100%;
+} 
+
+#menusys_mega > li > a {
+	padding: 0 12px !important;
+}
+#leo-slideshow .slideshow1{
+	display:none;
+}
+#leo-slideshow .slideshow2 {
+	width:100%!important;
+}
+
+#leo-slideshow .slideshow1 .descslide .lof-thumbnails li img,
+.descslide .lof-main-wapper .lof-main-item a img {
+	width:100%;
+}
+.lof-k2categorybox .lof-box-left .lof-primary,
+.lof-k2categorybox .lof-box-left .lof-leading, 
+.lof-k2categorybox .lof-box-left .lof-secondary {
+	width: 100%!important;
+}
+#leo-slideshow .slideshow2 div.moduletable_style {
+	height:auto!important;
+}
+#leo-content-bottom1,#leo-content-bottom2 {
+	width: 100% !important;
+}
+/*lofk2scroller*/
+#leo-showcase-top {
+	display: none;
+}
+.k2ItemsBlock ul li a.moduleItemTitle,
+div.lof-k2categorybox a, div.lof-k2categorybox h4 {
+	font-size: 12px!important;}
+/*K2*/
+.tagItemImageBlock span.tagItemImage img, .userItemImageBlock span.userItemImage img, span.itemImage img,
+span.itemImage img, span.catItemImage img, .subCategory a.subCategoryImage img{
+	width: 98%!important;}
+}
+@media only screen and (max-width : 200px) {
+
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	font-size: 99%;
+}
+	 #leo-content,
+#leo-right,
+#leo-left {
+	width: 100%!important;
+}
+#leo-userbottom2 .leo-usercol{
+	width:100%!important;
+}
+#leo-mainmenu #leo-responsivemenu {
+ display: block !important;
+}
+#leo-mainmenu .leo-container-inner {
+ display: none !important;
+}
+#leo-logo {
+ clear: both;
+ display: block;
+ width: 100%;
+}
+#leo-logo a {
+ margin: 0 auto;
+}
+#leo-mainmenu {
+ float: none!important;
+ width: 100%;
+} 
+
+#menusys_mega > li > a {
+	padding: 0 12px !important;
+}
+#leo-slideshow .slideshow1{
+	display:none;
+}
+#leo-slideshow .slideshow2 {
+	width:100%!important;
+}
+
+#leo-slideshow .slideshow1 .descslide .lof-thumbnails li img,
+.descslide .lof-main-wapper .lof-main-item a img {
+	width:100%;
+}
+.lof-k2categorybox .lof-box-left .lof-primary,
+.lof-k2categorybox .lof-box-left .lof-leading, 
+.lof-k2categorybox .lof-box-left .lof-secondary {
+	width: 100%!important;
+}
+#leo-slideshow .slideshow2 div.moduletable_style {
+	height:auto!important;
+}
+#leo-content-bottom1,#leo-content-bottom2 {
+	width: 100% !important;
+}
+/*lofk2scroller*/
+#leo-showcase-top {
+	display: none;
+}
+.k2ItemsBlock ul li a.moduleItemTitle,
+div.lof-k2categorybox a, div.lof-k2categorybox h4 {
+	font-size: 12px!important;}
+/*K2*/
+.tagItemImageBlock span.tagItemImage img, .userItemImageBlock span.userItemImage img, span.itemImage img,
+span.itemImage img, span.catItemImage img, .subCategory a.subCategoryImage img{
+	width: 98%!important;}
+}

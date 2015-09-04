@@ -1,0 +1,1 @@
+<?php  define( "_REQUIRE_LEOTHEME_FRAMEWORK", true ); ?>
